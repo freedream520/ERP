@@ -1,0 +1,74 @@
+2013-03-25 09:26:46,510 [9][ERROR][FrmMain] - 打开新窗口异常！
+System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.Exception: 对象名  'NAMES' 无效。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.Query(String SQLString) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 610
+   在 CZZD.ERP.SQLServerDAL.CommonManage.getNames(String codeType) 位置 D:\ERP\ERP.SQLServerDAL\Sys\CommonManage.cs:行号 229
+   在 CZZD.ERP.Bll.BCommon.GetNames(String codeType) 位置 D:\ERP\ERP.Bll\Sys\BCommon.cs:行号 41
+   在 CZZD.ERP.CacheData.CCacheData.get_AttacheDirectory() 位置 D:\ERP\ERP.CacheData\CCacheData.cs:行号 242
+   在 CZZD.ERP.CacheData.CCacheData.GetAttacheDirectory(String type) 位置 D:\ERP\ERP.CacheData\CCacheData.cs:行号 257
+   在 CZZD.ERP.WinUI.FrmOrdersEntry..ctor() 位置 D:\ERP\ERP.WinUI\Order\FrmOrdersEntry.cs:行号 25
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   在 System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 CZZD.ERP.Main.FrmMain.OpenWinForm(String aNamespace, String aName, String aTitle, String tag) 位置 D:\ERP\ERP.Main\FrmMain.cs:行号 157
+2013-03-25 09:26:51,188 [9][ERROR][FrmMain] - 打开新窗口异常！
+System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.Exception: 对象名  'NAMES' 无效。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.Query(String SQLString) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 610
+   在 CZZD.ERP.SQLServerDAL.CommonManage.getNames(String codeType) 位置 D:\ERP\ERP.SQLServerDAL\Sys\CommonManage.cs:行号 229
+   在 CZZD.ERP.Bll.BCommon.GetNames(String codeType) 位置 D:\ERP\ERP.Bll\Sys\BCommon.cs:行号 41
+   在 CZZD.ERP.CacheData.CCacheData.get_AttacheDirectory() 位置 D:\ERP\ERP.CacheData\CCacheData.cs:行号 242
+   在 CZZD.ERP.CacheData.CCacheData.GetAttacheDirectory(String type) 位置 D:\ERP\ERP.CacheData\CCacheData.cs:行号 257
+   在 CZZD.ERP.WinUI.FrmOrdersEntry..ctor() 位置 D:\ERP\ERP.WinUI\Order\FrmOrdersEntry.cs:行号 25
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   在 System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 CZZD.ERP.Main.FrmMain.OpenWinForm(String aNamespace, String aName, String aTitle, String tag) 位置 D:\ERP\ERP.Main\FrmMain.cs:行号 157
+2013-03-25 09:27:50,392 [9][ERROR][FrmMain] - 打开新窗口异常！
+System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.Exception: 对象名  'NAMES' 无效。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.Query(String SQLString) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 610
+   在 CZZD.ERP.SQLServerDAL.CommonManage.getNames(String codeType) 位置 D:\ERP\ERP.SQLServerDAL\Sys\CommonManage.cs:行号 229
+   在 CZZD.ERP.Bll.BCommon.GetNames(String codeType) 位置 D:\ERP\ERP.Bll\Sys\BCommon.cs:行号 41
+   在 CZZD.ERP.CacheData.CCacheData.get_AttacheDirectory() 位置 D:\ERP\ERP.CacheData\CCacheData.cs:行号 242
+   在 CZZD.ERP.CacheData.CCacheData.GetAttacheDirectory(String type) 位置 D:\ERP\ERP.CacheData\CCacheData.cs:行号 257
+   在 CZZD.ERP.WinUI.FrmOrdersEntry..ctor() 位置 D:\ERP\ERP.WinUI\Order\FrmOrdersEntry.cs:行号 25
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   在 System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 CZZD.ERP.Main.FrmMain.OpenWinForm(String aNamespace, String aName, String aTitle, String tag) 位置 D:\ERP\ERP.Main\FrmMain.cs:行号 157
+2013-03-25 11:13:16,533 [9][ERROR][FrmMain] - 我的桌面的重新整理异常！
+System.Exception: 列名 'CREATE_TIME' 无效。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.Query(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 1036
+   在 CZZD.ERP.SQLServerDAL.CommonManage.GetDeskDatas(String companyCode, String userCode) 位置 D:\ERP\ERP.SQLServerDAL\Sys\CommonManage.cs:行号 252
+   在 CZZD.ERP.SQLServerDAL.CommonManage.ReSetMyDesk(String companyCode, String userCode, String rolesCode) 位置 D:\ERP\ERP.SQLServerDAL\Sys\CommonManage.cs:行号 488
+   在 CZZD.ERP.Bll.BCommon.ReSetMyDesk(String companyCode, String userCode, String rolesCode) 位置 D:\ERP\ERP.Bll\Sys\BCommon.cs:行号 142
+   在 CZZD.ERP.Main.FrmMain.FrmMain_Load(Object sender, EventArgs e) 位置 D:\ERP\ERP.Main\FrmMain.cs:行号 52
+2013-03-25 11:13:20,438 [9][ERROR][FrmLogin] - 数据库连接失败！
+System.Exception: 列名 'CREATE_TIME' 无效。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.Query(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 1036
+   在 CZZD.ERP.SQLServerDAL.CommonManage.GetDeskDatas(String companyCode, String userCode) 位置 D:\ERP\ERP.SQLServerDAL\Sys\CommonManage.cs:行号 252
+   在 CZZD.ERP.Bll.BCommon.GetDeskDatas(String companyCode, String userCode) 位置 D:\ERP\ERP.Bll\Sys\BCommon.cs:行号 82
+   在 CZZD.ERP.WinUI.NavigationForm.ChildShowForm(String caption, String name) 位置 D:\ERP\ERP.WinUI\Sys\NavigationForm.cs:行号 155
+   在 CZZD.ERP.Main.FrmMain.menuManage_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.Main\FrmMain.cs:行号 130
+   在 CZZD.ERP.Main.FrmMain.FrmMain_Load(Object sender, EventArgs e) 位置 D:\ERP\ERP.Main\FrmMain.cs:行号 59
+   在 System.Windows.Forms.Form.OnLoad(EventArgs e)
+   在 System.Windows.Forms.Form.OnCreateControl()
+   在 System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   在 System.Windows.Forms.Control.CreateControl()
+   在 System.Windows.Forms.Control.WmShowWindow(Message& m)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.ContainerControl.WndProc(Message& m)
+   在 System.Windows.Forms.Form.WmShowWindow(Message& m)
+   在 System.Windows.Forms.Form.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   在 System.Windows.Forms.UnsafeNativeMethods.SendMessage(HandleRef hWnd, Int32 msg, Int32 wParam, Int32 lParam)
+   在 System.Windows.Forms.Form.SetVisibleCore(Boolean value)
+   在 System.Windows.Forms.Control.Show()
+   在 CZZD.ERP.Main.FrmLogin.login() 位置 D:\ERP\ERP.Main\FrmLogin.cs:行号 151

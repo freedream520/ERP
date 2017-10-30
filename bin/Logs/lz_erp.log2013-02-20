@@ -1,0 +1,30 @@
+2013-02-20 09:57:43,708 [9][ERROR][FrmPurchaseOrderEntry] - 订单取消失败！
+System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.Collections.ArrayList.get_Item(Int32 index)
+   在 System.Windows.Forms.DataGridViewSelectedRowCollection.get_Item(Int32 index)
+   在 CZZD.ERP.WinUI.FrmPurchaseOrderEntry.btnOrderDelete_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Purchase\FrmPurchaseOrderEntry.cs:行号 741
+2013-02-20 09:57:54,149 [9][ERROR][FrmPurchaseOrderEntry] - 订单取消失败！
+System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.Collections.ArrayList.get_Item(Int32 index)
+   在 System.Windows.Forms.DataGridViewSelectedRowCollection.get_Item(Int32 index)
+   在 CZZD.ERP.WinUI.FrmPurchaseOrderEntry.btnOrderDelete_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Purchase\FrmPurchaseOrderEntry.cs:行号 741
+2013-02-20 09:58:16,375 [10][ERROR][FrmPurchaseOrderEntry] - 订单取消失败！
+System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.Collections.ArrayList.get_Item(Int32 index)
+   在 System.Windows.Forms.DataGridViewSelectedRowCollection.get_Item(Int32 index)
+   在 CZZD.ERP.WinUI.FrmPurchaseOrderEntry.btnOrderDelete_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Purchase\FrmPurchaseOrderEntry.cs:行号 741
+2013-02-20 10:19:55,125 [9][ERROR][FrmPurchaseOrderEntry] - 新建订单保存失败！
+System.Data.SqlClient.SqlException: 将 expression 转换为数据类型 datetime 时出现算术溢出错误。
+语句已终止。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.GetSingle(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 990
+   在 CZZD.ERP.SQLServerDAL.PurchaseOrderManage.AddReceipt(BllReceiptPlanTable model) 位置 D:\ERP\ERP.SQLServerDAL\PurchaseOrder\PurchaseOrderManage.cs:行号 531
+   在 CZZD.ERP.Bll.BPurchaseOrder.AddReceipt(BllReceiptPlanTable model) 位置 D:\ERP\ERP.Bll\PurchaseOrder\BPurchaseOrder.cs:行号 103
+   在 CZZD.ERP.WinUI.FrmPurchaseOrderEntry.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Purchase\FrmPurchaseOrderEntry.cs:行号 594
+2013-02-20 10:58:31,904 [10][ERROR][FrmPurchaseOrderEntry] - 订单取消失败！
+System.ArgumentException: 列“DISP_TAX_RATE”不属于表 ds。
+   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.set_Item(String columnName, Object value)
+   在 CZZD.ERP.WinUI.FrmPurchaseOrderEntry.btnOrderDelete_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Purchase\FrmPurchaseOrderEntry.cs:行号 725

@@ -1,0 +1,201 @@
+2013-02-16 10:59:34,924 [10][ERROR][FrmPurchaseOrderEntry] - 新建订单保存失败！
+System.Data.SqlClient.SqlException: 违反了 PRIMARY KEY 约束 'PK_BLL_PURCHASE_ORDER'。不能在对象 'dbo.BLL_PURCHASE_ORDER' 中插入重复键。
+语句已终止。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 CZZD.ERP.DBUtility.DbHelperSQL.ExecuteSqlTran(List`1 cmdList) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 857
+   在 CZZD.ERP.SQLServerDAL.PurchaseOrderManage.Add(BllPurchaseOrderTable model) 位置 D:\ERP\ERP.SQLServerDAL\PurchaseOrder\PurchaseOrderManage.cs:行号 122
+   在 CZZD.ERP.Bll.BPurchaseOrder.Add(BllPurchaseOrderTable model) 位置 D:\ERP\ERP.Bll\PurchaseOrder\BPurchaseOrder.cs:行号 32
+   在 CZZD.ERP.WinUI.FrmPurchaseOrderEntry.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Purchase\FrmPurchaseOrderEntry.cs:行号 457
+2013-02-16 10:59:36,588 [10][ERROR][FrmPurchaseOrderEntry] - 新建订单保存失败！
+System.Data.SqlClient.SqlException: 违反了 PRIMARY KEY 约束 'PK_BLL_PURCHASE_ORDER'。不能在对象 'dbo.BLL_PURCHASE_ORDER' 中插入重复键。
+语句已终止。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 CZZD.ERP.DBUtility.DbHelperSQL.ExecuteSqlTran(List`1 cmdList) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 857
+   在 CZZD.ERP.SQLServerDAL.PurchaseOrderManage.Add(BllPurchaseOrderTable model) 位置 D:\ERP\ERP.SQLServerDAL\PurchaseOrder\PurchaseOrderManage.cs:行号 122
+   在 CZZD.ERP.Bll.BPurchaseOrder.Add(BllPurchaseOrderTable model) 位置 D:\ERP\ERP.Bll\PurchaseOrder\BPurchaseOrder.cs:行号 32
+   在 CZZD.ERP.WinUI.FrmPurchaseOrderEntry.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Purchase\FrmPurchaseOrderEntry.cs:行号 457
+2013-02-16 11:06:10,606 [9][ERROR][FrmPurchaseOrderEntry] - 新建订单保存失败！
+System.InvalidCastException: 将参数值从 Int32 转换到 DateTime 失败。 ---> System.InvalidCastException: 从“Int32”到“DateTime”的强制转换无效。
+   在 System.Int32.System.IConvertible.ToDateTime(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType)
+   在 System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   在 System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   在 System.Data.SqlClient.SqlCommand.BuildParamList(TdsParser parser, SqlParameterCollection parameters)
+   在 System.Data.SqlClient.SqlCommand.BuildExecuteSql(CommandBehavior behavior, String commandText, SqlParameterCollection parameters, _SqlRPC& rpc)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 CZZD.ERP.DBUtility.DbHelperSQL.ExecuteSqlTran(List`1 cmdList) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 857
+   在 CZZD.ERP.SQLServerDAL.PurchaseOrderManage.Add(BllPurchaseOrderTable model) 位置 D:\ERP\ERP.SQLServerDAL\PurchaseOrder\PurchaseOrderManage.cs:行号 122
+   在 CZZD.ERP.Bll.BPurchaseOrder.Add(BllPurchaseOrderTable model) 位置 D:\ERP\ERP.Bll\PurchaseOrder\BPurchaseOrder.cs:行号 32
+   在 CZZD.ERP.WinUI.FrmPurchaseOrderEntry.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Purchase\FrmPurchaseOrderEntry.cs:行号 456
+2013-02-16 11:06:12,299 [9][ERROR][FrmPurchaseOrderEntry] - 新建订单保存失败！
+System.InvalidCastException: 将参数值从 Int32 转换到 DateTime 失败。 ---> System.InvalidCastException: 从“Int32”到“DateTime”的强制转换无效。
+   在 System.Int32.System.IConvertible.ToDateTime(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType)
+   在 System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   在 System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   在 System.Data.SqlClient.SqlCommand.BuildParamList(TdsParser parser, SqlParameterCollection parameters)
+   在 System.Data.SqlClient.SqlCommand.BuildExecuteSql(CommandBehavior behavior, String commandText, SqlParameterCollection parameters, _SqlRPC& rpc)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 CZZD.ERP.DBUtility.DbHelperSQL.ExecuteSqlTran(List`1 cmdList) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 857
+   在 CZZD.ERP.SQLServerDAL.PurchaseOrderManage.Add(BllPurchaseOrderTable model) 位置 D:\ERP\ERP.SQLServerDAL\PurchaseOrder\PurchaseOrderManage.cs:行号 122
+   在 CZZD.ERP.Bll.BPurchaseOrder.Add(BllPurchaseOrderTable model) 位置 D:\ERP\ERP.Bll\PurchaseOrder\BPurchaseOrder.cs:行号 32
+   在 CZZD.ERP.WinUI.FrmPurchaseOrderEntry.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Purchase\FrmPurchaseOrderEntry.cs:行号 456
+2013-02-16 11:06:44,652 [9][ERROR][FrmPurchaseOrderEntry] - 新建订单保存失败！
+System.InvalidCastException: 将参数值从 Int32 转换到 DateTime 失败。 ---> System.InvalidCastException: 从“Int32”到“DateTime”的强制转换无效。
+   在 System.Int32.System.IConvertible.ToDateTime(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType)
+   在 System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   在 System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   在 System.Data.SqlClient.SqlCommand.BuildParamList(TdsParser parser, SqlParameterCollection parameters)
+   在 System.Data.SqlClient.SqlCommand.BuildExecuteSql(CommandBehavior behavior, String commandText, SqlParameterCollection parameters, _SqlRPC& rpc)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 CZZD.ERP.DBUtility.DbHelperSQL.ExecuteSqlTran(List`1 cmdList) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 857
+   在 CZZD.ERP.SQLServerDAL.PurchaseOrderManage.Add(BllPurchaseOrderTable model) 位置 D:\ERP\ERP.SQLServerDAL\PurchaseOrder\PurchaseOrderManage.cs:行号 122
+   在 CZZD.ERP.Bll.BPurchaseOrder.Add(BllPurchaseOrderTable model) 位置 D:\ERP\ERP.Bll\PurchaseOrder\BPurchaseOrder.cs:行号 32
+   在 CZZD.ERP.WinUI.FrmPurchaseOrderEntry.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Purchase\FrmPurchaseOrderEntry.cs:行号 456
+2013-02-16 11:36:25,366 [10][ERROR][FrmPurchaseOrderEntry] - 新建订单保存失败！
+System.InvalidCastException: 将参数值从 Int32 转换到 DateTime 失败。 ---> System.InvalidCastException: 从“Int32”到“DateTime”的强制转换无效。
+   在 System.Int32.System.IConvertible.ToDateTime(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType)
+   在 System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   在 System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   在 System.Data.SqlClient.SqlCommand.BuildParamList(TdsParser parser, SqlParameterCollection parameters)
+   在 System.Data.SqlClient.SqlCommand.BuildExecuteSql(CommandBehavior behavior, String commandText, SqlParameterCollection parameters, _SqlRPC& rpc)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 CZZD.ERP.DBUtility.DbHelperSQL.ExecuteSqlTran(List`1 cmdList) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 857
+   在 CZZD.ERP.SQLServerDAL.PurchaseOrderManage.Add(BllPurchaseOrderTable model) 位置 D:\ERP\ERP.SQLServerDAL\PurchaseOrder\PurchaseOrderManage.cs:行号 118
+   在 CZZD.ERP.Bll.BPurchaseOrder.Add(BllPurchaseOrderTable model) 位置 D:\ERP\ERP.Bll\PurchaseOrder\BPurchaseOrder.cs:行号 32
+   在 CZZD.ERP.WinUI.FrmPurchaseOrderEntry.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Purchase\FrmPurchaseOrderEntry.cs:行号 456
+2013-02-16 11:39:59,681 [10][ERROR][FrmPurchaseOrderEntry] - 新建订单保存失败！
+System.InvalidCastException: 将参数值从 Int32 转换到 DateTime 失败。 ---> System.InvalidCastException: 从“Int32”到“DateTime”的强制转换无效。
+   在 System.Int32.System.IConvertible.ToDateTime(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType)
+   在 System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   在 System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   在 System.Data.SqlClient.SqlCommand.BuildParamList(TdsParser parser, SqlParameterCollection parameters)
+   在 System.Data.SqlClient.SqlCommand.BuildExecuteSql(CommandBehavior behavior, String commandText, SqlParameterCollection parameters, _SqlRPC& rpc)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 CZZD.ERP.DBUtility.DbHelperSQL.ExecuteSqlTran(List`1 cmdList) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 857
+   在 CZZD.ERP.SQLServerDAL.PurchaseOrderManage.Add(BllPurchaseOrderTable model) 位置 D:\ERP\ERP.SQLServerDAL\PurchaseOrder\PurchaseOrderManage.cs:行号 120
+   在 CZZD.ERP.Bll.BPurchaseOrder.Add(BllPurchaseOrderTable model) 位置 D:\ERP\ERP.Bll\PurchaseOrder\BPurchaseOrder.cs:行号 32
+   在 CZZD.ERP.WinUI.FrmPurchaseOrderEntry.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Purchase\FrmPurchaseOrderEntry.cs:行号 456
+2013-02-16 11:40:02,865 [10][ERROR][FrmPurchaseOrderEntry] - 新建订单保存失败！
+System.InvalidCastException: 将参数值从 Int32 转换到 DateTime 失败。 ---> System.InvalidCastException: 从“Int32”到“DateTime”的强制转换无效。
+   在 System.Int32.System.IConvertible.ToDateTime(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType)
+   在 System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   在 System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   在 System.Data.SqlClient.SqlCommand.BuildParamList(TdsParser parser, SqlParameterCollection parameters)
+   在 System.Data.SqlClient.SqlCommand.BuildExecuteSql(CommandBehavior behavior, String commandText, SqlParameterCollection parameters, _SqlRPC& rpc)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 CZZD.ERP.DBUtility.DbHelperSQL.ExecuteSqlTran(List`1 cmdList) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 857
+   在 CZZD.ERP.SQLServerDAL.PurchaseOrderManage.Add(BllPurchaseOrderTable model) 位置 D:\ERP\ERP.SQLServerDAL\PurchaseOrder\PurchaseOrderManage.cs:行号 120
+   在 CZZD.ERP.Bll.BPurchaseOrder.Add(BllPurchaseOrderTable model) 位置 D:\ERP\ERP.Bll\PurchaseOrder\BPurchaseOrder.cs:行号 32
+   在 CZZD.ERP.WinUI.FrmPurchaseOrderEntry.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Purchase\FrmPurchaseOrderEntry.cs:行号 456
+2013-02-16 13:18:14,013 [9][ERROR][FrmPurchaseOrderEntry] - 新建订单保存失败！
+System.InvalidCastException: 将参数值从 Int32 转换到 DateTime 失败。 ---> System.InvalidCastException: 从“Int32”到“DateTime”的强制转换无效。
+   在 System.Int32.System.IConvertible.ToDateTime(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType)
+   在 System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   在 System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   在 System.Data.SqlClient.SqlCommand.BuildParamList(TdsParser parser, SqlParameterCollection parameters)
+   在 System.Data.SqlClient.SqlCommand.BuildExecuteSql(CommandBehavior behavior, String commandText, SqlParameterCollection parameters, _SqlRPC& rpc)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 CZZD.ERP.DBUtility.DbHelperSQL.ExecuteSqlTran(List`1 cmdList) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 857
+   在 CZZD.ERP.SQLServerDAL.PurchaseOrderManage.Add(BllPurchaseOrderTable model) 位置 D:\ERP\ERP.SQLServerDAL\PurchaseOrder\PurchaseOrderManage.cs:行号 121
+   在 CZZD.ERP.Bll.BPurchaseOrder.Add(BllPurchaseOrderTable model) 位置 D:\ERP\ERP.Bll\PurchaseOrder\BPurchaseOrder.cs:行号 32
+   在 CZZD.ERP.WinUI.FrmPurchaseOrderEntry.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Purchase\FrmPurchaseOrderEntry.cs:行号 457
+2013-02-16 13:18:19,071 [9][ERROR][FrmPurchaseOrderEntry] - 新建订单保存失败！
+System.InvalidCastException: 将参数值从 Int32 转换到 DateTime 失败。 ---> System.InvalidCastException: 从“Int32”到“DateTime”的强制转换无效。
+   在 System.Int32.System.IConvertible.ToDateTime(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType)
+   在 System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   在 System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   在 System.Data.SqlClient.SqlCommand.BuildParamList(TdsParser parser, SqlParameterCollection parameters)
+   在 System.Data.SqlClient.SqlCommand.BuildExecuteSql(CommandBehavior behavior, String commandText, SqlParameterCollection parameters, _SqlRPC& rpc)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 CZZD.ERP.DBUtility.DbHelperSQL.ExecuteSqlTran(List`1 cmdList) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 857
+   在 CZZD.ERP.SQLServerDAL.PurchaseOrderManage.Add(BllPurchaseOrderTable model) 位置 D:\ERP\ERP.SQLServerDAL\PurchaseOrder\PurchaseOrderManage.cs:行号 121
+   在 CZZD.ERP.Bll.BPurchaseOrder.Add(BllPurchaseOrderTable model) 位置 D:\ERP\ERP.Bll\PurchaseOrder\BPurchaseOrder.cs:行号 32
+   在 CZZD.ERP.WinUI.FrmPurchaseOrderEntry.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Purchase\FrmPurchaseOrderEntry.cs:行号 457
+2013-02-16 13:18:24,004 [9][ERROR][FrmPurchaseOrderEntry] - 新建订单保存失败！
+System.InvalidCastException: 将参数值从 Int32 转换到 DateTime 失败。 ---> System.InvalidCastException: 从“Int32”到“DateTime”的强制转换无效。
+   在 System.Int32.System.IConvertible.ToDateTime(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType)
+   在 System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   在 System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   在 System.Data.SqlClient.SqlCommand.BuildParamList(TdsParser parser, SqlParameterCollection parameters)
+   在 System.Data.SqlClient.SqlCommand.BuildExecuteSql(CommandBehavior behavior, String commandText, SqlParameterCollection parameters, _SqlRPC& rpc)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 CZZD.ERP.DBUtility.DbHelperSQL.ExecuteSqlTran(List`1 cmdList) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 857
+   在 CZZD.ERP.SQLServerDAL.PurchaseOrderManage.Add(BllPurchaseOrderTable model) 位置 D:\ERP\ERP.SQLServerDAL\PurchaseOrder\PurchaseOrderManage.cs:行号 121
+   在 CZZD.ERP.Bll.BPurchaseOrder.Add(BllPurchaseOrderTable model) 位置 D:\ERP\ERP.Bll\PurchaseOrder\BPurchaseOrder.cs:行号 32
+   在 CZZD.ERP.WinUI.FrmPurchaseOrderEntry.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Purchase\FrmPurchaseOrderEntry.cs:行号 457

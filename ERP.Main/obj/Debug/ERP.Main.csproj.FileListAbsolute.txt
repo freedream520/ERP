@@ -1,0 +1,13 @@
+D:\ERP\bin\erp.exe
+D:\ERP\bin\erp.pdb
+D:\ERP\ERP.Main\obj\Debug\ResolveAssemblyReference.cache
+D:\ERP\ERP.Main\obj\Debug\CZZD.ERP.Main.FrmLogin.resources
+D:\ERP\ERP.Main\obj\Debug\CZZD.ERP.Main.FrmMain.resources
+D:\ERP\ERP.Main\obj\Debug\CZZD.ERP.Main.Properties.Resources.resources
+D:\ERP\ERP.Main\obj\Debug\ERP.Main.csproj.GenerateResource.Cache
+D:\ERP\ERP.Main\obj\Debug\erp.exe
+D:\ERP\ERP.Main\obj\Debug\erp.pdb
+D:\ERP\ERP.Main\obj\Debug\CZZD.ERP.Main.FrmBase.resources
+D:\ERP\ERP.Main\obj\Debug\CZZD.ERP.Main.FrmAbout.resources
+D:\ERP\ERP.Main\obj\Debug\CZZD.ERP.Main.FrmDBConfig.resources
+D:\ERP\ERP.Main\obj\Debug\CZZD.ERP.Main.FrmPwd.resources

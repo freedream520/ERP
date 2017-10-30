@@ -1,0 +1,6 @@
+2013-02-19 16:00:09,768 [10][ERROR][FrmPurchaseOrderEntry] - 新建订单保存失败！
+System.Data.SqlClient.SqlException: '(' 附近有语法错误。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.GetSingle(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 990
+   在 CZZD.ERP.SQLServerDAL.PurchaseOrderManage.AddReceipt(BllReceiptPlanTable model) 位置 D:\ERP\ERP.SQLServerDAL\PurchaseOrder\PurchaseOrderManage.cs:行号 530
+   在 CZZD.ERP.Bll.BPurchaseOrder.AddReceipt(BllReceiptPlanTable model) 位置 D:\ERP\ERP.Bll\PurchaseOrder\BPurchaseOrder.cs:行号 103
+   在 CZZD.ERP.WinUI.FrmPurchaseOrderEntry.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Purchase\FrmPurchaseOrderEntry.cs:行号 590

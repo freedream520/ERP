@@ -1,0 +1,5 @@
+D:\ERP\bin\ERP.Bll.dll
+D:\ERP\bin\ERP.Bll.pdb
+D:\ERP\ERP.Bll\obj\Debug\ResolveAssemblyReference.cache
+D:\ERP\ERP.Bll\obj\Debug\ERP.Bll.dll
+D:\ERP\ERP.Bll\obj\Debug\ERP.Bll.pdb

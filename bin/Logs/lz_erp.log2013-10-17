@@ -1,0 +1,114 @@
+2013-10-17 10:17:10,036 [10][ERROR][FrmPurchaseOrderEntry] - 订单保存失败！
+System.Data.SqlClient.SqlException: '@PURCHASE_QUOTATION_NUMBER' 附近有语法错误。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 CZZD.ERP.DBUtility.DbHelperSQL.ExecuteSqlTran(List`1 cmdList) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 853
+   在 CZZD.ERP.SQLServerDAL.PurchaseOrderManage.Update(BllPurchaseOrderTable model) 位置 D:\ERP\ERP.SQLServerDAL\PurchaseOrder\PurchaseOrderManage.cs:行号 447
+   在 CZZD.ERP.Bll.BPurchaseOrder.Update(BllPurchaseOrderTable model) 位置 D:\ERP\ERP.Bll\PurchaseOrder\BPurchaseOrder.cs:行号 39
+   在 CZZD.ERP.WinUI.FrmPurchaseOrderEntry.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Purchase\FrmPurchaseOrderEntry.cs:行号 1062
+2013-10-17 10:18:28,520 [10][ERROR][FrmPurchaseOrderEntry] - 订单保存失败！
+System.Data.SqlClient.SqlException: '@PURCHASE_QUOTATION_NUMBER' 附近有语法错误。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 CZZD.ERP.DBUtility.DbHelperSQL.ExecuteSqlTran(List`1 cmdList) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 853
+   在 CZZD.ERP.SQLServerDAL.PurchaseOrderManage.Update(BllPurchaseOrderTable model)
+   在 CZZD.ERP.Bll.BPurchaseOrder.Update(BllPurchaseOrderTable model) 位置 D:\ERP\ERP.Bll\PurchaseOrder\BPurchaseOrder.cs:行号 39
+   在 CZZD.ERP.WinUI.FrmPurchaseOrderEntry.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Purchase\FrmPurchaseOrderEntry.cs:行号 1062
+2013-10-17 13:06:48,627 [9][ERROR][FrmPurchaseOrderEntry] - 订单保存失败！
+System.Data.SqlClient.SqlException: 违反了 PRIMARY KEY 约束 'PK_BLL_PURCHASE_ORDER'。不能在对象 'dbo.BLL_PURCHASE_ORDER' 中插入重复键。
+语句已终止。
+   在 CZZD.ERP.SQLServerDAL.PurchaseOrderManage.Add(BllPurchaseOrderTable model) 位置 D:\ERP\ERP.SQLServerDAL\PurchaseOrder\PurchaseOrderManage.cs:行号 226
+   在 CZZD.ERP.Bll.BPurchaseOrder.Add(BllPurchaseOrderTable model) 位置 D:\ERP\ERP.Bll\PurchaseOrder\BPurchaseOrder.cs:行号 31
+   在 CZZD.ERP.WinUI.FrmPurchaseOrderEntry.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Purchase\FrmPurchaseOrderEntry.cs:行号 1077
+2013-10-17 13:07:05,697 [9][ERROR][FrmPurchaseOrderEntry] - 订单保存失败！
+System.Data.SqlClient.SqlException: 违反了 PRIMARY KEY 约束 'PK_BLL_PURCHASE_ORDER'。不能在对象 'dbo.BLL_PURCHASE_ORDER' 中插入重复键。
+语句已终止。
+   在 CZZD.ERP.SQLServerDAL.PurchaseOrderManage.Add(BllPurchaseOrderTable model) 位置 D:\ERP\ERP.SQLServerDAL\PurchaseOrder\PurchaseOrderManage.cs:行号 226
+   在 CZZD.ERP.Bll.BPurchaseOrder.Add(BllPurchaseOrderTable model) 位置 D:\ERP\ERP.Bll\PurchaseOrder\BPurchaseOrder.cs:行号 31
+   在 CZZD.ERP.WinUI.FrmPurchaseOrderEntry.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Purchase\FrmPurchaseOrderEntry.cs:行号 1077
+2013-10-17 13:12:29,290 [9][ERROR][FrmPurchaseOrderEntry] - 订单保存失败！
+System.Data.SqlClient.SqlException: 违反了 PRIMARY KEY 约束 'PK_BLL_PURCHASE_ORDER'。不能在对象 'dbo.BLL_PURCHASE_ORDER' 中插入重复键。
+语句已终止。
+   在 CZZD.ERP.SQLServerDAL.PurchaseOrderManage.Add(BllPurchaseOrderTable model) 位置 D:\ERP\ERP.SQLServerDAL\PurchaseOrder\PurchaseOrderManage.cs:行号 226
+   在 CZZD.ERP.Bll.BPurchaseOrder.Add(BllPurchaseOrderTable model) 位置 D:\ERP\ERP.Bll\PurchaseOrder\BPurchaseOrder.cs:行号 31
+   在 CZZD.ERP.WinUI.FrmPurchaseOrderEntry.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Purchase\FrmPurchaseOrderEntry.cs:行号 1077
+2013-10-17 13:14:43,785 [9][ERROR][FrmPurchaseOrderEntry] - 订单保存失败！
+System.Data.SqlClient.SqlException: 违反了 PRIMARY KEY 约束 'PK_BLL_PURCHASE_ORDER_LINE'。不能在对象 'dbo.BLL_PURCHASE_ORDER_LINE' 中插入重复键。
+语句已终止。
+   在 CZZD.ERP.SQLServerDAL.PurchaseOrderManage.Add(BllPurchaseOrderTable model) 位置 D:\ERP\ERP.SQLServerDAL\PurchaseOrder\PurchaseOrderManage.cs:行号 226
+   在 CZZD.ERP.Bll.BPurchaseOrder.Add(BllPurchaseOrderTable model) 位置 D:\ERP\ERP.Bll\PurchaseOrder\BPurchaseOrder.cs:行号 31
+   在 CZZD.ERP.WinUI.FrmPurchaseOrderEntry.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Purchase\FrmPurchaseOrderEntry.cs:行号 1077
+2013-10-17 13:15:18,167 [9][ERROR][FrmPurchaseOrderEntry] - 订单保存失败！
+System.Data.SqlClient.SqlException: 违反了 PRIMARY KEY 约束 'PK_BLL_PURCHASE_ORDER_LINE'。不能在对象 'dbo.BLL_PURCHASE_ORDER_LINE' 中插入重复键。
+语句已终止。
+   在 CZZD.ERP.SQLServerDAL.PurchaseOrderManage.Add(BllPurchaseOrderTable model) 位置 D:\ERP\ERP.SQLServerDAL\PurchaseOrder\PurchaseOrderManage.cs:行号 226
+   在 CZZD.ERP.Bll.BPurchaseOrder.Add(BllPurchaseOrderTable model) 位置 D:\ERP\ERP.Bll\PurchaseOrder\BPurchaseOrder.cs:行号 31
+   在 CZZD.ERP.WinUI.FrmPurchaseOrderEntry.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Purchase\FrmPurchaseOrderEntry.cs:行号 1077
+2013-10-17 15:02:48,607 [10][ERROR][FrmSales] - 明细确认:
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CZZD.ERP.WinUI.FrmShipmentSearch.GetConduction() 位置 D:\ERP\ERP.WinUI\Stock\FrmShipmentSearch.cs:行号 167
+   在 CZZD.ERP.WinUI.FrmShipmentSearch.btnSearch_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Stock\FrmShipmentSearch.cs:行号 134
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   在 System.Windows.Forms.Button.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   在 System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   在 System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(Int32 dwComponentID, Int32 reason, Int32 pvLoopData)
+   在 System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   在 System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   在 System.Windows.Forms.Application.RunDialog(Form form)
+   在 System.Windows.Forms.Form.ShowDialog(IWin32Window owner)
+   在 System.Windows.Forms.Form.ShowDialog()
+   在 CZZD.ERP.WinUI.FrmSales.btnOperate_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Finance\FrmSales.cs:行号 524
+2013-10-17 18:39:31,480 [9][ERROR][FrmShipment] - 出库确认失败。
+System.Data.SqlClient.SqlException: 违反了 PRIMARY KEY 约束 'PK_BLL_SHIPMENT_LINE'。不能在对象 'dbo.BLL_SHIPMENT_LINE' 中插入重复键。
+语句已终止。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 CZZD.ERP.DBUtility.DbHelperSQL.ExecuteSqlTran(List`1 cmdList) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 853
+   在 CZZD.ERP.SQLServerDAL.ShipmentManage.Add(List`1 datas) 位置 D:\ERP\ERP.SQLServerDAL\Stock\ShipmentManage.cs:行号 193
+   在 CZZD.ERP.Bll.BShipment.Add(List`1 datas) 位置 D:\ERP\ERP.Bll\Stock\BShipment.cs:行号 27
+   在 CZZD.ERP.WinUI.FrmShipment.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Stock\FrmShipment.cs:行号 372
+2013-10-17 18:43:34,371 [9][ERROR][FrmShipment] - 出库确认失败。
+System.Data.SqlClient.SqlException: 违反了 PRIMARY KEY 约束 'PK_BLL_SHIPMENT_LINE'。不能在对象 'dbo.BLL_SHIPMENT_LINE' 中插入重复键。
+语句已终止。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 CZZD.ERP.DBUtility.DbHelperSQL.ExecuteSqlTran(List`1 cmdList) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 853
+   在 CZZD.ERP.SQLServerDAL.ShipmentManage.Add(List`1 datas) 位置 D:\ERP\ERP.SQLServerDAL\Stock\ShipmentManage.cs:行号 193
+   在 CZZD.ERP.Bll.BShipment.Add(List`1 datas) 位置 D:\ERP\ERP.Bll\Stock\BShipment.cs:行号 27
+   在 CZZD.ERP.WinUI.FrmShipment.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Stock\FrmShipment.cs:行号 372

@@ -1,0 +1,11 @@
+D:\ERP\bin\ERP.ComControls.dll
+D:\ERP\bin\ERP.ComControls.pdb
+D:\ERP\ERP.Controls\obj\Debug\ResolveAssemblyReference.cache
+D:\ERP\ERP.Controls\obj\Debug\CZZD.ERP.ComControls.MasterToolBarControl.resources
+D:\ERP\ERP.Controls\obj\Debug\CZZD.ERP.ComControls.PageControl.resources
+D:\ERP\ERP.Controls\obj\Debug\CZZD.ERP.ComControls.Properties.Resources.resources
+D:\ERP\ERP.Controls\obj\Debug\ERP.ComControls.csproj.GenerateResource.Cache
+D:\ERP\ERP.Controls\obj\Debug\ERP.ComControls.dll
+D:\ERP\ERP.Controls\obj\Debug\ERP.ComControls.pdb
+D:\ERP\ERP.Controls\obj\Debug\CZZD.ERP.ComControls.PageControlMin.resources
+D:\ERP\ERP.Controls\obj\Debug\CZZD.ERP.ComControls.CTextBox.resources

@@ -1,0 +1,20 @@
+2013-04-09 09:37:05,263 [10][ERROR][FrmOrdersEntry] - CellValidated error!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CZZD.ERP.WinUI.FrmOrdersEntry.dgvData_CellValidated(Object sender, DataGridViewCellEventArgs e) 位置 D:\ERP\ERP.WinUI\Order\FrmOrdersEntry.cs:行号 489
+2013-04-09 09:49:42,752 [9][ERROR][FrmOrdersEntry] - CellValidated error!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CZZD.ERP.WinUI.FrmOrdersEntry.dgvData_CellValidated(Object sender, DataGridViewCellEventArgs e) 位置 D:\ERP\ERP.WinUI\Order\FrmOrdersEntry.cs:行号 489
+2013-04-09 16:55:29,096 [9][ERROR][FrmShipmentSearch] - 出库取消失败
+System.ArgumentException: 列“DEPARTUAL_WAREHOUSE_CODE”不属于表 ds。
+   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.get_Item(String columnName)
+   在 CZZD.ERP.SQLServerDAL.ShipmentManage.DeleteShipment(String slipNumber, String userCode) 位置 D:\ERP\ERP.SQLServerDAL\Stock\ShipmentManage.cs:行号 503
+   在 CZZD.ERP.Bll.BShipment.DeleteShipment(String slipNumber, String userCode) 位置 D:\ERP\ERP.Bll\Stock\BShipment.cs:行号 69
+   在 CZZD.ERP.WinUI.FrmShipmentSearch.btnDelete_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Stock\FrmShipmentSearch.cs:行号 217
+2013-04-09 16:55:33,421 [9][ERROR][FrmShipmentSearch] - 出库取消失败
+System.ArgumentException: 列“DEPARTUAL_WAREHOUSE_CODE”不属于表 ds。
+   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.get_Item(String columnName)
+   在 CZZD.ERP.SQLServerDAL.ShipmentManage.DeleteShipment(String slipNumber, String userCode) 位置 D:\ERP\ERP.SQLServerDAL\Stock\ShipmentManage.cs:行号 503
+   在 CZZD.ERP.Bll.BShipment.DeleteShipment(String slipNumber, String userCode) 位置 D:\ERP\ERP.Bll\Stock\BShipment.cs:行号 69
+   在 CZZD.ERP.WinUI.FrmShipmentSearch.btnDelete_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Stock\FrmShipmentSearch.cs:行号 217

@@ -1,0 +1,21 @@
+2013-03-04 14:30:38,320 [10][ERROR][FrmPurchaseOrderEntry] - 新建订单保存失败！
+System.Data.SqlClient.SqlException: 将 expression 转换为数据类型 datetime 时出现算术溢出错误。
+语句已终止。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.GetSingle(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 990
+   在 CZZD.ERP.SQLServerDAL.PurchaseOrderManage.AddReceipt(BllReceiptPlanTable model) 位置 D:\ERP\ERP.SQLServerDAL\PurchaseOrder\PurchaseOrderManage.cs:行号 556
+   在 CZZD.ERP.Bll.BPurchaseOrder.AddReceipt(BllReceiptPlanTable model) 位置 D:\ERP\ERP.Bll\PurchaseOrder\BPurchaseOrder.cs:行号 108
+   在 CZZD.ERP.WinUI.FrmPurchaseOrderEntry.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Purchase\FrmPurchaseOrderEntry.cs:行号 601
+2013-03-04 14:31:20,713 [9][ERROR][FrmPurchaseOrderEntry] - 新建订单保存失败！
+System.Data.SqlClient.SqlException: 将 expression 转换为数据类型 datetime 时出现算术溢出错误。
+语句已终止。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.GetSingle(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 990
+   在 CZZD.ERP.SQLServerDAL.PurchaseOrderManage.AddReceipt(BllReceiptPlanTable model) 位置 D:\ERP\ERP.SQLServerDAL\PurchaseOrder\PurchaseOrderManage.cs:行号 556
+   在 CZZD.ERP.Bll.BPurchaseOrder.AddReceipt(BllReceiptPlanTable model) 位置 D:\ERP\ERP.Bll\PurchaseOrder\BPurchaseOrder.cs:行号 108
+   在 CZZD.ERP.WinUI.FrmPurchaseOrderEntry.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Purchase\FrmPurchaseOrderEntry.cs:行号 601
+2013-03-04 14:33:08,100 [9][ERROR][FrmPurchaseOrderEntry] - 新建订单保存失败！
+System.Data.SqlClient.SqlException: 将 expression 转换为数据类型 datetime 时出现算术溢出错误。
+语句已终止。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.GetSingle(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 990
+   在 CZZD.ERP.SQLServerDAL.PurchaseOrderManage.AddReceipt(BllReceiptPlanTable model) 位置 D:\ERP\ERP.SQLServerDAL\PurchaseOrder\PurchaseOrderManage.cs:行号 556
+   在 CZZD.ERP.Bll.BPurchaseOrder.AddReceipt(BllReceiptPlanTable model) 位置 D:\ERP\ERP.Bll\PurchaseOrder\BPurchaseOrder.cs:行号 108
+   在 CZZD.ERP.WinUI.FrmPurchaseOrderEntry.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Purchase\FrmPurchaseOrderEntry.cs:行号 601

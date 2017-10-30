@@ -1,0 +1,236 @@
+2013-04-18 11:43:32,512 [9][ERROR][FrmOrdersEntry] - 新建订单保存失败。
+System.Data.SqlTypes.SqlTypeException: SqlDateTime 溢出。必须介于 1/1/1753 12:00:00 AM 和 12/31/9999 11:59:59 PM 之间。
+   在 System.Data.SqlTypes.SqlDateTime.FromTimeSpan(TimeSpan value)
+   在 System.Data.SqlTypes.SqlDateTime.FromDateTime(DateTime value)
+   在 System.Data.SqlClient.MetaType.FromDateTime(DateTime dateTime, Byte cb)
+   在 System.Data.SqlClient.TdsParser.WriteValue(Object value, MetaType type, Byte scale, Int32 actualLength, Int32 encodingByteSize, Int32 offset, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.TdsExecuteRPC(_SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 CZZD.ERP.DBUtility.DbHelperSQL.ExecuteSqlTran(List`1 cmdList) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 853
+   在 CZZD.ERP.SQLServerDAL.OrderHeaderManage.Add(BllOrderHeaderTable headerModel) 位置 D:\ERP\ERP.SQLServerDAL\Order\OrderHeaderManage.cs:行号 175
+   在 CZZD.ERP.Bll.BOrderHeader.Add(BllOrderHeaderTable model) 位置 D:\ERP\ERP.Bll\Order\BOrderHeader.cs:行号 42
+   在 CZZD.ERP.WinUI.FrmOrdersEntry.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Order\FrmOrdersEntry.cs:行号 1004
+2013-04-18 11:43:34,373 [9][ERROR][FrmOrdersEntry] - 新建订单保存失败。
+System.Data.SqlTypes.SqlTypeException: SqlDateTime 溢出。必须介于 1/1/1753 12:00:00 AM 和 12/31/9999 11:59:59 PM 之间。
+   在 System.Data.SqlTypes.SqlDateTime.FromTimeSpan(TimeSpan value)
+   在 System.Data.SqlTypes.SqlDateTime.FromDateTime(DateTime value)
+   在 System.Data.SqlClient.MetaType.FromDateTime(DateTime dateTime, Byte cb)
+   在 System.Data.SqlClient.TdsParser.WriteValue(Object value, MetaType type, Byte scale, Int32 actualLength, Int32 encodingByteSize, Int32 offset, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.TdsExecuteRPC(_SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 CZZD.ERP.DBUtility.DbHelperSQL.ExecuteSqlTran(List`1 cmdList) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 853
+   在 CZZD.ERP.SQLServerDAL.OrderHeaderManage.Add(BllOrderHeaderTable headerModel) 位置 D:\ERP\ERP.SQLServerDAL\Order\OrderHeaderManage.cs:行号 175
+   在 CZZD.ERP.Bll.BOrderHeader.Add(BllOrderHeaderTable model) 位置 D:\ERP\ERP.Bll\Order\BOrderHeader.cs:行号 42
+   在 CZZD.ERP.WinUI.FrmOrdersEntry.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Order\FrmOrdersEntry.cs:行号 1004
+2013-04-18 11:43:36,482 [9][ERROR][FrmOrdersEntry] - 新建订单保存失败。
+System.Data.SqlTypes.SqlTypeException: SqlDateTime 溢出。必须介于 1/1/1753 12:00:00 AM 和 12/31/9999 11:59:59 PM 之间。
+   在 System.Data.SqlTypes.SqlDateTime.FromTimeSpan(TimeSpan value)
+   在 System.Data.SqlTypes.SqlDateTime.FromDateTime(DateTime value)
+   在 System.Data.SqlClient.MetaType.FromDateTime(DateTime dateTime, Byte cb)
+   在 System.Data.SqlClient.TdsParser.WriteValue(Object value, MetaType type, Byte scale, Int32 actualLength, Int32 encodingByteSize, Int32 offset, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.TdsExecuteRPC(_SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 CZZD.ERP.DBUtility.DbHelperSQL.ExecuteSqlTran(List`1 cmdList) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 853
+   在 CZZD.ERP.SQLServerDAL.OrderHeaderManage.Add(BllOrderHeaderTable headerModel) 位置 D:\ERP\ERP.SQLServerDAL\Order\OrderHeaderManage.cs:行号 175
+   在 CZZD.ERP.Bll.BOrderHeader.Add(BllOrderHeaderTable model) 位置 D:\ERP\ERP.Bll\Order\BOrderHeader.cs:行号 42
+   在 CZZD.ERP.WinUI.FrmOrdersEntry.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Order\FrmOrdersEntry.cs:行号 1004
+2013-04-18 11:48:09,198 [9][ERROR][FrmSales] - 销售发票保存失败!!!!!
+System.Data.SqlClient.SqlException: 关键字 'SELECT' 附近有语法错误。
+')' 附近有语法错误。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.GetSingle(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 981
+   在 CZZD.ERP.SQLServerDAL.SalesManage.GetSalesMaxSlipNumber(String companyCode) 位置 D:\ERP\ERP.SQLServerDAL\Finance\SalesManage.cs:行号 125
+   在 CZZD.ERP.SQLServerDAL.SalesManage.Add(BllSalesTable salesTable) 位置 D:\ERP\ERP.SQLServerDAL\Finance\SalesManage.cs:行号 35
+   在 CZZD.ERP.Bll.BSales.Add(BllSalesTable salesTable) 位置 D:\ERP\ERP.Bll\Finance\BSales.cs:行号 24
+   在 CZZD.ERP.WinUI.FrmSales.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Finance\FrmSales.cs:行号 362
+2013-04-18 11:48:11,916 [9][ERROR][FrmSales] - 销售发票保存失败!!!!!
+System.Data.SqlClient.SqlException: 关键字 'SELECT' 附近有语法错误。
+')' 附近有语法错误。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.GetSingle(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 981
+   在 CZZD.ERP.SQLServerDAL.SalesManage.GetSalesMaxSlipNumber(String companyCode) 位置 D:\ERP\ERP.SQLServerDAL\Finance\SalesManage.cs:行号 125
+   在 CZZD.ERP.SQLServerDAL.SalesManage.Add(BllSalesTable salesTable) 位置 D:\ERP\ERP.SQLServerDAL\Finance\SalesManage.cs:行号 35
+   在 CZZD.ERP.Bll.BSales.Add(BllSalesTable salesTable) 位置 D:\ERP\ERP.Bll\Finance\BSales.cs:行号 24
+   在 CZZD.ERP.WinUI.FrmSales.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Finance\FrmSales.cs:行号 362
+2013-04-18 11:48:15,065 [9][ERROR][FrmSales] - 销售发票保存失败!!!!!
+System.Data.SqlClient.SqlException: 关键字 'SELECT' 附近有语法错误。
+')' 附近有语法错误。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.GetSingle(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 981
+   在 CZZD.ERP.SQLServerDAL.SalesManage.GetSalesMaxSlipNumber(String companyCode) 位置 D:\ERP\ERP.SQLServerDAL\Finance\SalesManage.cs:行号 125
+   在 CZZD.ERP.SQLServerDAL.SalesManage.Add(BllSalesTable salesTable) 位置 D:\ERP\ERP.SQLServerDAL\Finance\SalesManage.cs:行号 35
+   在 CZZD.ERP.Bll.BSales.Add(BllSalesTable salesTable) 位置 D:\ERP\ERP.Bll\Finance\BSales.cs:行号 24
+   在 CZZD.ERP.WinUI.FrmSales.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Finance\FrmSales.cs:行号 362
+2013-04-18 11:48:47,098 [9][ERROR][FrmSales] - 销售发票保存失败!!!!!
+System.Data.SqlClient.SqlException: 关键字 'SELECT' 附近有语法错误。
+')' 附近有语法错误。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.GetSingle(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 981
+   在 CZZD.ERP.SQLServerDAL.SalesManage.GetSalesMaxSlipNumber(String companyCode) 位置 D:\ERP\ERP.SQLServerDAL\Finance\SalesManage.cs:行号 125
+   在 CZZD.ERP.SQLServerDAL.SalesManage.Add(BllSalesTable salesTable) 位置 D:\ERP\ERP.SQLServerDAL\Finance\SalesManage.cs:行号 35
+   在 CZZD.ERP.Bll.BSales.Add(BllSalesTable salesTable) 位置 D:\ERP\ERP.Bll\Finance\BSales.cs:行号 24
+   在 CZZD.ERP.WinUI.FrmSales.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Finance\FrmSales.cs:行号 362
+2013-04-18 11:49:14,855 [9][ERROR][FrmSales] - 销售发票保存失败!!!!!
+System.Data.SqlClient.SqlException: 关键字 'SELECT' 附近有语法错误。
+')' 附近有语法错误。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.GetSingle(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 981
+   在 CZZD.ERP.SQLServerDAL.SalesManage.GetSalesMaxSlipNumber(String companyCode) 位置 D:\ERP\ERP.SQLServerDAL\Finance\SalesManage.cs:行号 125
+   在 CZZD.ERP.SQLServerDAL.SalesManage.Add(BllSalesTable salesTable) 位置 D:\ERP\ERP.SQLServerDAL\Finance\SalesManage.cs:行号 35
+   在 CZZD.ERP.Bll.BSales.Add(BllSalesTable salesTable) 位置 D:\ERP\ERP.Bll\Finance\BSales.cs:行号 24
+   在 CZZD.ERP.WinUI.FrmSales.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Finance\FrmSales.cs:行号 362
+2013-04-18 11:49:40,082 [9][ERROR][FrmSales] - 销售发票保存失败!!!!!
+System.Data.SqlClient.SqlException: 关键字 'SELECT' 附近有语法错误。
+')' 附近有语法错误。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.GetSingle(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 981
+   在 CZZD.ERP.SQLServerDAL.SalesManage.GetSalesMaxSlipNumber(String companyCode) 位置 D:\ERP\ERP.SQLServerDAL\Finance\SalesManage.cs:行号 125
+   在 CZZD.ERP.SQLServerDAL.SalesManage.Add(BllSalesTable salesTable) 位置 D:\ERP\ERP.SQLServerDAL\Finance\SalesManage.cs:行号 35
+   在 CZZD.ERP.Bll.BSales.Add(BllSalesTable salesTable) 位置 D:\ERP\ERP.Bll\Finance\BSales.cs:行号 24
+   在 CZZD.ERP.WinUI.FrmSales.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Finance\FrmSales.cs:行号 362
+2013-04-18 11:51:27,757 [10][ERROR][FrmSales] - 销售发票保存失败!!!!!
+System.Data.SqlClient.SqlException: 关键字 'SELECT' 附近有语法错误。
+')' 附近有语法错误。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.GetSingle(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 981
+   在 CZZD.ERP.SQLServerDAL.SalesManage.GetSalesMaxSlipNumber(String companyCode) 位置 D:\ERP\ERP.SQLServerDAL\Finance\SalesManage.cs:行号 125
+   在 CZZD.ERP.SQLServerDAL.SalesManage.Add(BllSalesTable salesTable) 位置 D:\ERP\ERP.SQLServerDAL\Finance\SalesManage.cs:行号 35
+   在 CZZD.ERP.Bll.BSales.Add(BllSalesTable salesTable) 位置 D:\ERP\ERP.Bll\Finance\BSales.cs:行号 24
+   在 CZZD.ERP.WinUI.FrmSales.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Finance\FrmSales.cs:行号 362
+2013-04-18 17:04:25,407 [9][ERROR][FrmOrdersEntry] - CellValidated error!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CZZD.ERP.WinUI.FrmOrdersEntry.dgvData_CellValidated(Object sender, DataGridViewCellEventArgs e) 位置 D:\ERP\ERP.WinUI\Order\FrmOrdersEntry.cs:行号 489
+2013-04-18 17:04:35,458 [9][ERROR][FrmOrdersEntry] - CellValidated error!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CZZD.ERP.WinUI.FrmOrdersEntry.dgvData_CellValidated(Object sender, DataGridViewCellEventArgs e) 位置 D:\ERP\ERP.WinUI\Order\FrmOrdersEntry.cs:行号 489
+2013-04-18 17:05:45,547 [9][ERROR][FrmOrdersEntry] - 新建订单保存失败。
+System.Data.SqlTypes.SqlTypeException: SqlDateTime 溢出。必须介于 1/1/1753 12:00:00 AM 和 12/31/9999 11:59:59 PM 之间。
+   在 System.Data.SqlTypes.SqlDateTime.FromTimeSpan(TimeSpan value)
+   在 System.Data.SqlTypes.SqlDateTime.FromDateTime(DateTime value)
+   在 System.Data.SqlClient.MetaType.FromDateTime(DateTime dateTime, Byte cb)
+   在 System.Data.SqlClient.TdsParser.WriteValue(Object value, MetaType type, Byte scale, Int32 actualLength, Int32 encodingByteSize, Int32 offset, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.TdsExecuteRPC(_SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 CZZD.ERP.DBUtility.DbHelperSQL.ExecuteSqlTran(List`1 cmdList) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 853
+   在 CZZD.ERP.SQLServerDAL.OrderHeaderManage.Add(BllOrderHeaderTable headerModel) 位置 D:\ERP\ERP.SQLServerDAL\Order\OrderHeaderManage.cs:行号 175
+   在 CZZD.ERP.Bll.BOrderHeader.Add(BllOrderHeaderTable model) 位置 D:\ERP\ERP.Bll\Order\BOrderHeader.cs:行号 42
+   在 CZZD.ERP.WinUI.FrmOrdersEntry.btnSave_Click(Object sender, EventArgs e)
+2013-04-18 17:08:21,148 [9][ERROR][FrmOrdersEntry] - 新建订单保存失败。
+System.Data.SqlTypes.SqlTypeException: SqlDateTime 溢出。必须介于 1/1/1753 12:00:00 AM 和 12/31/9999 11:59:59 PM 之间。
+   在 System.Data.SqlTypes.SqlDateTime.FromTimeSpan(TimeSpan value)
+   在 System.Data.SqlTypes.SqlDateTime.FromDateTime(DateTime value)
+   在 System.Data.SqlClient.MetaType.FromDateTime(DateTime dateTime, Byte cb)
+   在 System.Data.SqlClient.TdsParser.WriteValue(Object value, MetaType type, Byte scale, Int32 actualLength, Int32 encodingByteSize, Int32 offset, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.TdsExecuteRPC(_SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 CZZD.ERP.DBUtility.DbHelperSQL.ExecuteSqlTran(List`1 cmdList) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 853
+   在 CZZD.ERP.SQLServerDAL.OrderHeaderManage.Add(BllOrderHeaderTable headerModel) 位置 D:\ERP\ERP.SQLServerDAL\Order\OrderHeaderManage.cs:行号 175
+   在 CZZD.ERP.Bll.BOrderHeader.Add(BllOrderHeaderTable model) 位置 D:\ERP\ERP.Bll\Order\BOrderHeader.cs:行号 42
+   在 CZZD.ERP.WinUI.FrmOrdersEntry.btnSave_Click(Object sender, EventArgs e)
+2013-04-18 17:09:21,673 [10][ERROR][FrmOrdersEntry] - CellValidated error!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CZZD.ERP.WinUI.FrmOrdersEntry.dgvData_CellValidated(Object sender, DataGridViewCellEventArgs e) 位置 D:\ERP\ERP.WinUI\Order\FrmOrdersEntry.cs:行号 489
+2013-04-18 17:13:09,016 [10][ERROR][FrmOrdersEntry] - 新建订单保存失败。
+System.Data.SqlTypes.SqlTypeException: SqlDateTime 溢出。必须介于 1/1/1753 12:00:00 AM 和 12/31/9999 11:59:59 PM 之间。
+   在 System.Data.SqlTypes.SqlDateTime.FromTimeSpan(TimeSpan value)
+   在 System.Data.SqlTypes.SqlDateTime.FromDateTime(DateTime value)
+   在 System.Data.SqlClient.MetaType.FromDateTime(DateTime dateTime, Byte cb)
+   在 System.Data.SqlClient.TdsParser.WriteValue(Object value, MetaType type, Byte scale, Int32 actualLength, Int32 encodingByteSize, Int32 offset, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.TdsExecuteRPC(_SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 CZZD.ERP.DBUtility.DbHelperSQL.ExecuteSqlTran(List`1 cmdList) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 853
+   在 CZZD.ERP.SQLServerDAL.OrderHeaderManage.Add(BllOrderHeaderTable headerModel) 位置 D:\ERP\ERP.SQLServerDAL\Order\OrderHeaderManage.cs:行号 175
+   在 CZZD.ERP.Bll.BOrderHeader.Add(BllOrderHeaderTable model) 位置 D:\ERP\ERP.Bll\Order\BOrderHeader.cs:行号 42
+   在 CZZD.ERP.WinUI.FrmOrdersEntry.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Order\FrmOrdersEntry.cs:行号 1004
+2013-04-18 17:18:34,236 [10][ERROR][FrmOrdersEntry] - CellValidated error!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CZZD.ERP.WinUI.FrmOrdersEntry.dgvData_CellValidated(Object sender, DataGridViewCellEventArgs e) 位置 D:\ERP\ERP.WinUI\Order\FrmOrdersEntry.cs:行号 489
+2013-04-18 17:28:12,759 [10][ERROR][FrmOrdersEntry] - CellValidated error!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CZZD.ERP.WinUI.FrmOrdersEntry.dgvData_CellValidated(Object sender, DataGridViewCellEventArgs e) 位置 D:\ERP\ERP.WinUI\Order\FrmOrdersEntry.cs:行号 489
+2013-04-18 17:30:08,492 [10][ERROR][FrmShipment] - 出库确认失败。
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CZZD.ERP.SQLServerDAL.ShipmentManage.GetShipmentMaxSlipNumber(String companyCode)
+   在 CZZD.ERP.SQLServerDAL.ShipmentManage.Add(List`1 datas)
+   在 CZZD.ERP.Bll.BShipment.Add(List`1 datas) 位置 D:\ERP\ERP.Bll\Stock\BShipment.cs:行号 29
+   在 CZZD.ERP.WinUI.FrmShipment.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Stock\FrmShipment.cs:行号 330
+2013-04-18 17:30:22,707 [10][ERROR][FrmShipment] - 出库确认失败。
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CZZD.ERP.SQLServerDAL.ShipmentManage.GetShipmentMaxSlipNumber(String companyCode)
+   在 CZZD.ERP.SQLServerDAL.ShipmentManage.Add(List`1 datas)
+   在 CZZD.ERP.Bll.BShipment.Add(List`1 datas) 位置 D:\ERP\ERP.Bll\Stock\BShipment.cs:行号 29
+   在 CZZD.ERP.WinUI.FrmShipment.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Stock\FrmShipment.cs:行号 330
+2013-04-18 17:30:42,086 [10][ERROR][FrmShipment] - 出库确认失败。
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CZZD.ERP.SQLServerDAL.ShipmentManage.GetShipmentMaxSlipNumber(String companyCode)
+   在 CZZD.ERP.SQLServerDAL.ShipmentManage.Add(List`1 datas)
+   在 CZZD.ERP.Bll.BShipment.Add(List`1 datas) 位置 D:\ERP\ERP.Bll\Stock\BShipment.cs:行号 29
+   在 CZZD.ERP.WinUI.FrmShipment.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Stock\FrmShipment.cs:行号 330
+2013-04-18 17:31:18,874 [10][ERROR][FrmShipment] - 出库确认失败。
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CZZD.ERP.SQLServerDAL.ShipmentManage.GetShipmentMaxSlipNumber(String companyCode)
+   在 CZZD.ERP.SQLServerDAL.ShipmentManage.Add(List`1 datas)
+   在 CZZD.ERP.Bll.BShipment.Add(List`1 datas) 位置 D:\ERP\ERP.Bll\Stock\BShipment.cs:行号 29
+   在 CZZD.ERP.WinUI.FrmShipment.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Stock\FrmShipment.cs:行号 330
+2013-04-18 17:40:53,451 [9][ERROR][FrmShipment] - 出库确认失败。
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CZZD.ERP.SQLServerDAL.ShipmentManage.GetShipmentMaxSlipNumber(String companyCode) 位置 D:\ERP\ERP.SQLServerDAL\Stock\ShipmentManage.cs:行号 188
+   在 CZZD.ERP.SQLServerDAL.ShipmentManage.Add(List`1 datas) 位置 D:\ERP\ERP.SQLServerDAL\Stock\ShipmentManage.cs:行号 38
+   在 CZZD.ERP.Bll.BShipment.Add(List`1 datas) 位置 D:\ERP\ERP.Bll\Stock\BShipment.cs:行号 29
+   在 CZZD.ERP.WinUI.FrmShipment.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Stock\FrmShipment.cs:行号 330
+2013-04-18 17:45:48,059 [9][ERROR][FrmShipment] - 出库确认失败。
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CZZD.ERP.SQLServerDAL.ShipmentManage.GetShipmentMaxSlipNumber(String companyCode) 位置 D:\ERP\ERP.SQLServerDAL\Stock\ShipmentManage.cs:行号 188
+   在 CZZD.ERP.SQLServerDAL.ShipmentManage.Add(List`1 datas) 位置 D:\ERP\ERP.SQLServerDAL\Stock\ShipmentManage.cs:行号 38
+   在 CZZD.ERP.Bll.BShipment.Add(List`1 datas) 位置 D:\ERP\ERP.Bll\Stock\BShipment.cs:行号 29
+   在 CZZD.ERP.WinUI.FrmShipment.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Stock\FrmShipment.cs:行号 330
+2013-04-18 17:46:11,120 [9][ERROR][FrmShipment] - 出库确认失败。
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CZZD.ERP.SQLServerDAL.ShipmentManage.GetShipmentMaxSlipNumber(String companyCode) 位置 D:\ERP\ERP.SQLServerDAL\Stock\ShipmentManage.cs:行号 188
+   在 CZZD.ERP.SQLServerDAL.ShipmentManage.Add(List`1 datas) 位置 D:\ERP\ERP.SQLServerDAL\Stock\ShipmentManage.cs:行号 38
+   在 CZZD.ERP.Bll.BShipment.Add(List`1 datas) 位置 D:\ERP\ERP.Bll\Stock\BShipment.cs:行号 29
+   在 CZZD.ERP.WinUI.FrmShipment.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Stock\FrmShipment.cs:行号 330
+2013-04-18 17:55:03,534 [10][ERROR][FrmOrdersEntry] - CellValidated error!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CZZD.ERP.WinUI.FrmOrdersEntry.dgvData_CellValidated(Object sender, DataGridViewCellEventArgs e) 位置 D:\ERP\ERP.WinUI\Order\FrmOrdersEntry.cs:行号 489
+2013-04-18 18:03:19,841 [9][ERROR][FrmShipment] - 出库确认失败。
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CZZD.ERP.SQLServerDAL.ShipmentManage.GetShipmentMaxSlipNumber(String companyCode) 位置 D:\ERP\ERP.SQLServerDAL\Stock\ShipmentManage.cs:行号 188
+   在 CZZD.ERP.SQLServerDAL.ShipmentManage.Add(List`1 datas) 位置 D:\ERP\ERP.SQLServerDAL\Stock\ShipmentManage.cs:行号 38
+   在 CZZD.ERP.Bll.BShipment.Add(List`1 datas) 位置 D:\ERP\ERP.Bll\Stock\BShipment.cs:行号 29
+   在 CZZD.ERP.WinUI.FrmShipment.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Stock\FrmShipment.cs:行号 330
+2013-04-18 18:03:53,044 [9][ERROR][FrmShipment] - 出库确认失败。
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CZZD.ERP.SQLServerDAL.ShipmentManage.GetShipmentMaxSlipNumber(String companyCode) 位置 D:\ERP\ERP.SQLServerDAL\Stock\ShipmentManage.cs:行号 188
+   在 CZZD.ERP.SQLServerDAL.ShipmentManage.Add(List`1 datas) 位置 D:\ERP\ERP.SQLServerDAL\Stock\ShipmentManage.cs:行号 38
+   在 CZZD.ERP.Bll.BShipment.Add(List`1 datas) 位置 D:\ERP\ERP.Bll\Stock\BShipment.cs:行号 29
+   在 CZZD.ERP.WinUI.FrmShipment.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Stock\FrmShipment.cs:行号 330
+2013-04-18 18:05:20,069 [9][ERROR][FrmShipment] - 出库确认失败。
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CZZD.ERP.SQLServerDAL.ShipmentManage.GetShipmentMaxSlipNumber(String companyCode) 位置 D:\ERP\ERP.SQLServerDAL\Stock\ShipmentManage.cs:行号 188
+   在 CZZD.ERP.SQLServerDAL.ShipmentManage.Add(List`1 datas) 位置 D:\ERP\ERP.SQLServerDAL\Stock\ShipmentManage.cs:行号 38
+   在 CZZD.ERP.Bll.BShipment.Add(List`1 datas) 位置 D:\ERP\ERP.Bll\Stock\BShipment.cs:行号 29
+   在 CZZD.ERP.WinUI.FrmShipment.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Stock\FrmShipment.cs:行号 330
+2013-04-18 18:06:05,024 [9][ERROR][FrmShipment] - 出库确认失败。
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CZZD.ERP.SQLServerDAL.ShipmentManage.GetShipmentMaxSlipNumber(String companyCode) 位置 D:\ERP\ERP.SQLServerDAL\Stock\ShipmentManage.cs:行号 188
+   在 CZZD.ERP.SQLServerDAL.ShipmentManage.Add(List`1 datas) 位置 D:\ERP\ERP.SQLServerDAL\Stock\ShipmentManage.cs:行号 38
+   在 CZZD.ERP.Bll.BShipment.Add(List`1 datas) 位置 D:\ERP\ERP.Bll\Stock\BShipment.cs:行号 29
+   在 CZZD.ERP.WinUI.FrmShipment.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Stock\FrmShipment.cs:行号 330
+2013-04-18 18:08:36,090 [9][ERROR][FrmShipment] - 出库确认失败。
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CZZD.ERP.SQLServerDAL.ShipmentManage.GetShipmentMaxSlipNumber(String companyCode) 位置 D:\ERP\ERP.SQLServerDAL\Stock\ShipmentManage.cs:行号 188
+   在 CZZD.ERP.SQLServerDAL.ShipmentManage.Add(List`1 datas) 位置 D:\ERP\ERP.SQLServerDAL\Stock\ShipmentManage.cs:行号 38
+   在 CZZD.ERP.Bll.BShipment.Add(List`1 datas) 位置 D:\ERP\ERP.Bll\Stock\BShipment.cs:行号 29
+   在 CZZD.ERP.WinUI.FrmShipment.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Stock\FrmShipment.cs:行号 330

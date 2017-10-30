@@ -1,0 +1,47 @@
+2013-04-10 15:26:26,700 [9][ERROR][FrmReceiptMatch] - 收款金额输入保存失败!!!!!
+System.Data.SqlClient.SqlException: 列名 'COMPANY_CODE' 无效。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.GetSingle(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 981
+   在 CZZD.ERP.SQLServerDAL.SalesManage.GetReceiptMatchMaxSlipNumber(String companyCode) 位置 D:\ERP\ERP.SQLServerDAL\Finance\SalesManage.cs:行号 302
+   在 CZZD.ERP.SQLServerDAL.SalesManage.AddBllReceiptMatch(BllReceiptMatchTable model) 位置 D:\ERP\ERP.SQLServerDAL\Finance\SalesManage.cs:行号 250
+   在 CZZD.ERP.Bll.BSales.AddBllReceiptMatch(BllReceiptMatchTable model) 位置 D:\ERP\ERP.Bll\Finance\BSales.cs:行号 81
+   在 CZZD.ERP.WinUI.FrmReceiptMatch.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Finance\FrmReceiptMatch.cs:行号 258
+2013-04-10 15:26:34,446 [9][ERROR][FrmReceiptMatch] - 收款金额输入保存失败!!!!!
+System.Data.SqlClient.SqlException: 列名 'COMPANY_CODE' 无效。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.GetSingle(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 981
+   在 CZZD.ERP.SQLServerDAL.SalesManage.GetReceiptMatchMaxSlipNumber(String companyCode) 位置 D:\ERP\ERP.SQLServerDAL\Finance\SalesManage.cs:行号 302
+   在 CZZD.ERP.SQLServerDAL.SalesManage.AddBllReceiptMatch(BllReceiptMatchTable model) 位置 D:\ERP\ERP.SQLServerDAL\Finance\SalesManage.cs:行号 250
+   在 CZZD.ERP.Bll.BSales.AddBllReceiptMatch(BllReceiptMatchTable model) 位置 D:\ERP\ERP.Bll\Finance\BSales.cs:行号 81
+   在 CZZD.ERP.WinUI.FrmReceiptMatch.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Finance\FrmReceiptMatch.cs:行号 258
+2013-04-10 15:26:42,811 [9][ERROR][FrmReceiptMatch] - 收款金额输入保存失败!!!!!
+System.Data.SqlClient.SqlException: 列名 'COMPANY_CODE' 无效。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.GetSingle(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 981
+   在 CZZD.ERP.SQLServerDAL.SalesManage.GetReceiptMatchMaxSlipNumber(String companyCode) 位置 D:\ERP\ERP.SQLServerDAL\Finance\SalesManage.cs:行号 302
+   在 CZZD.ERP.SQLServerDAL.SalesManage.AddBllReceiptMatch(BllReceiptMatchTable model) 位置 D:\ERP\ERP.SQLServerDAL\Finance\SalesManage.cs:行号 250
+   在 CZZD.ERP.Bll.BSales.AddBllReceiptMatch(BllReceiptMatchTable model) 位置 D:\ERP\ERP.Bll\Finance\BSales.cs:行号 81
+   在 CZZD.ERP.WinUI.FrmReceiptMatch.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Finance\FrmReceiptMatch.cs:行号 258
+2013-04-10 15:26:48,060 [9][ERROR][FrmReceiptMatch] - 收款金额输入保存失败!!!!!
+System.Data.SqlClient.SqlException: 列名 'COMPANY_CODE' 无效。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.GetSingle(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 981
+   在 CZZD.ERP.SQLServerDAL.SalesManage.GetReceiptMatchMaxSlipNumber(String companyCode) 位置 D:\ERP\ERP.SQLServerDAL\Finance\SalesManage.cs:行号 302
+   在 CZZD.ERP.SQLServerDAL.SalesManage.AddBllReceiptMatch(BllReceiptMatchTable model) 位置 D:\ERP\ERP.SQLServerDAL\Finance\SalesManage.cs:行号 250
+   在 CZZD.ERP.Bll.BSales.AddBllReceiptMatch(BllReceiptMatchTable model) 位置 D:\ERP\ERP.Bll\Finance\BSales.cs:行号 81
+   在 CZZD.ERP.WinUI.FrmReceiptMatch.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Finance\FrmReceiptMatch.cs:行号 258
+2013-04-10 15:29:18,083 [9][ERROR][FrmReceiptMatch] - 收款金额输入保存失败!!!!!
+System.Data.SqlClient.SqlException: 列名 'COMPANY_CODE' 无效。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.GetSingle(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 981
+   在 CZZD.ERP.SQLServerDAL.SalesManage.GetReceiptMatchMaxSlipNumber(String companyCode) 位置 D:\ERP\ERP.SQLServerDAL\Finance\SalesManage.cs:行号 302
+   在 CZZD.ERP.SQLServerDAL.SalesManage.AddBllReceiptMatch(BllReceiptMatchTable model) 位置 D:\ERP\ERP.SQLServerDAL\Finance\SalesManage.cs:行号 250
+   在 CZZD.ERP.Bll.BSales.AddBllReceiptMatch(BllReceiptMatchTable model) 位置 D:\ERP\ERP.Bll\Finance\BSales.cs:行号 81
+   在 CZZD.ERP.WinUI.FrmReceiptMatch.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Finance\FrmReceiptMatch.cs:行号 258
+2013-04-10 15:34:29,292 [9][ERROR][FrmReceiptMatch] - 收款金额输入保存失败!!!!!
+System.Data.SqlClient.SqlException: 列名 'COMPANY_CODE' 无效。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.ExecuteSql(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 669
+   在 CZZD.ERP.SQLServerDAL.SalesManage.AddBllReceiptMatch(BllReceiptMatchTable model) 位置 D:\ERP\ERP.SQLServerDAL\Finance\SalesManage.cs:行号 285
+   在 CZZD.ERP.Bll.BSales.AddBllReceiptMatch(BllReceiptMatchTable model) 位置 D:\ERP\ERP.Bll\Finance\BSales.cs:行号 81
+   在 CZZD.ERP.WinUI.FrmReceiptMatch.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Finance\FrmReceiptMatch.cs:行号 258
+2013-04-10 15:36:15,550 [10][ERROR][FrmReceiptMatch] - 收款金额输入保存失败!!!!!
+System.Data.SqlClient.SqlException: 列名 'COMPANY_CODE' 无效。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.ExecuteSql(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 669
+   在 CZZD.ERP.SQLServerDAL.SalesManage.AddBllReceiptMatch(BllReceiptMatchTable model) 位置 D:\ERP\ERP.SQLServerDAL\Finance\SalesManage.cs:行号 285
+   在 CZZD.ERP.Bll.BSales.AddBllReceiptMatch(BllReceiptMatchTable model) 位置 D:\ERP\ERP.Bll\Finance\BSales.cs:行号 81
+   在 CZZD.ERP.WinUI.FrmReceiptMatch.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Finance\FrmReceiptMatch.cs:行号 258

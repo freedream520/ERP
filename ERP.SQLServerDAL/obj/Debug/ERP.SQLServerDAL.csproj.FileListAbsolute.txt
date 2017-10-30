@@ -1,0 +1,5 @@
+D:\ERP\bin\ERP.SQLServerDAL.dll
+D:\ERP\bin\ERP.SQLServerDAL.pdb
+D:\ERP\ERP.SQLServerDAL\obj\Debug\ResolveAssemblyReference.cache
+D:\ERP\ERP.SQLServerDAL\obj\Debug\ERP.SQLServerDAL.dll
+D:\ERP\ERP.SQLServerDAL\obj\Debug\ERP.SQLServerDAL.pdb

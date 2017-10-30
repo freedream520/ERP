@@ -1,0 +1,12 @@
+2013-03-01 11:00:40,828 [11][ERROR][FrmSlipType] - 订单类型中获取当前数据失败!
+System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.Collections.ArrayList.get_Item(Int32 index)
+   在 System.Windows.Forms.DataGridViewSelectedRowCollection.get_Item(Int32 index)
+   在 CZZD.ERP.WinUI.FrmSlipType.GetCurrentSelectedTable() 位置 D:\ERP\ERP.WinUI\Master\FrmSlipType.cs:行号 255
+2013-03-01 11:14:53,587 [9][ERROR][FrmSlipType] - 订单类型中获取当前数据失败!
+System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.Collections.ArrayList.get_Item(Int32 index)
+   在 System.Windows.Forms.DataGridViewSelectedRowCollection.get_Item(Int32 index)
+   在 CZZD.ERP.WinUI.FrmSlipType.GetCurrentSelectedTable() 位置 D:\ERP\ERP.WinUI\Master\FrmSlipType.cs:行号 253

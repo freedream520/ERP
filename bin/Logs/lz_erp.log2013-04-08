@@ -1,0 +1,26 @@
+2013-04-08 13:24:06,585 [10][ERROR][FrmMain] - 打开新窗口异常！
+System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.ArgumentException: 未能找到名为 CODE 的列。
+参数名: columnName
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 CZZD.ERP.WinUI.FrmExchange.dgvData_RowStateChanged(Object sender, DataGridViewRowStateChangedEventArgs e) 位置 D:\ERP\ERP.WinUI\Master\FrmExchange.cs:行号 72
+   在 System.Windows.Forms.DataGridView.OnRowStateChanged(Int32 rowIndex, DataGridViewRowStateChangedEventArgs e)
+   在 System.Windows.Forms.DataGridView.OnDataGridViewElementStateChanged(DataGridViewElement element, Int32 index, DataGridViewElementStates elementState)
+   在 System.Windows.Forms.DataGridViewRow.OnSharedStateChanged(Int32 sharedRowIndex, DataGridViewElementStates elementState)
+   在 System.Windows.Forms.DataGridViewRowCollection.SetRowState(Int32 rowIndex, DataGridViewElementStates state, Boolean value)
+   在 System.Windows.Forms.DataGridView.UpdateRowsDisplayedState(Boolean displayed)
+   在 System.Windows.Forms.DataGridView.OnVisibleChangedPrivate()
+   在 System.Windows.Forms.DataGridView.OnParentBecameInvisible()
+   在 System.Windows.Forms.Control.OnParentBecameInvisible()
+   在 System.Windows.Forms.Control.OnVisibleChanged(EventArgs e)
+   在 System.Windows.Forms.ScrollableControl.OnVisibleChanged(EventArgs e)
+   在 System.Windows.Forms.Control.AssignParent(Control value)
+   在 System.Windows.Forms.Control.ControlCollection.Add(Control value)
+   在 System.Windows.Forms.Form.ControlCollection.Add(Control value)
+   在 CZZD.ERP.WinUI.FrmExchange.InitializeComponent() 位置 D:\ERP\ERP.WinUI\Master\FrmExchange.Designer.cs:行号 273
+   在 CZZD.ERP.WinUI.FrmExchange..ctor() 位置 D:\ERP\ERP.WinUI\Master\FrmExchange.cs:行号 19
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   在 System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 CZZD.ERP.Main.FrmMain.OpenWinForm(String aNamespace, String aName, String aTitle, String tag) 位置 D:\ERP\ERP.Main\FrmMain.cs:行号 157

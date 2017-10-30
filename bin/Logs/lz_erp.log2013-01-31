@@ -1,0 +1,21 @@
+2013-01-31 11:26:58,236 [9][ERROR][FrmSlipTypeDialog] - 订单类型保存失败!
+System.Data.SqlClient.SqlException: 不能在具有唯一索引 'IX_BASE_SLIP_TYPE' 的对象 'dbo.BASE_SLIP_TYPE' 中插入重复键的行。
+语句已终止。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.ExecuteSql(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 678
+   在 CZZD.ERP.SQLServerDAL.SlipTypeManage.Add(BaseSlipTypeTable model) 位置 D:\ERP\ERP.SQLServerDAL\Master\SlipTypeManage.cs:行号 58
+   在 CZZD.ERP.Bll.BSlipType.Add(BaseSlipTypeTable model) 位置 D:\ERP\ERP.Bll\Master\BSlipType.cs:行号 29
+   在 CZZD.ERP.WinUI.FrmSlipTypeDialog.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Master\FrmSlipTypeDialog.cs:行号 109
+2013-01-31 11:27:02,199 [9][ERROR][FrmSlipTypeDialog] - 订单类型保存失败!
+System.Data.SqlClient.SqlException: 不能在具有唯一索引 'IX_BASE_SLIP_TYPE' 的对象 'dbo.BASE_SLIP_TYPE' 中插入重复键的行。
+语句已终止。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.ExecuteSql(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 678
+   在 CZZD.ERP.SQLServerDAL.SlipTypeManage.Add(BaseSlipTypeTable model) 位置 D:\ERP\ERP.SQLServerDAL\Master\SlipTypeManage.cs:行号 58
+   在 CZZD.ERP.Bll.BSlipType.Add(BaseSlipTypeTable model) 位置 D:\ERP\ERP.Bll\Master\BSlipType.cs:行号 29
+   在 CZZD.ERP.WinUI.FrmSlipTypeDialog.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Master\FrmSlipTypeDialog.cs:行号 109
+2013-01-31 11:28:07,331 [9][ERROR][FrmSlipTypeDialog] - 订单类型保存失败!
+System.Data.SqlClient.SqlException: 不能在具有唯一索引 'IX_BASE_SLIP_TYPE' 的对象 'dbo.BASE_SLIP_TYPE' 中插入重复键的行。
+语句已终止。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.ExecuteSql(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 678
+   在 CZZD.ERP.SQLServerDAL.SlipTypeManage.Add(BaseSlipTypeTable model) 位置 D:\ERP\ERP.SQLServerDAL\Master\SlipTypeManage.cs:行号 58
+   在 CZZD.ERP.Bll.BSlipType.Add(BaseSlipTypeTable model) 位置 D:\ERP\ERP.Bll\Master\BSlipType.cs:行号 29
+   在 CZZD.ERP.WinUI.FrmSlipTypeDialog.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Master\FrmSlipTypeDialog.cs:行号 109

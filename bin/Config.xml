@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ConfigSetting>
+  <AppConfig>
+    <AppDAL>ERP.SQLServerDAL</AppDAL>
+    <ConStringEncrypt>false</ConStringEncrypt>
+    <ConnectionString>Data Source=localhost;User ID=sa;Password=czzd;Initial Catalog=ERP;Pooling=true</ConnectionString>
+  </AppConfig>
+</ConfigSetting>

@@ -1,0 +1,55 @@
+2013-03-05 16:51:20,964 [9][ERROR][FrmInventoryStart] - 盘点失败！
+System.FormatException: 将参数值从 String 转换到 DateTime 失败。 ---> System.FormatException: 该字符串未被识别为有效的 DateTime。
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 System.String.System.IConvertible.ToDateTime(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType)
+   在 System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   在 System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   在 System.Data.SqlClient.SqlCommand.BuildParamList(TdsParser parser, SqlParameterCollection parameters)
+   在 System.Data.SqlClient.SqlCommand.BuildExecuteSql(CommandBehavior behavior, String commandText, SqlParameterCollection parameters, _SqlRPC& rpc)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 CZZD.ERP.DBUtility.DbHelperSQL.ExecuteSqlTran(List`1 cmdList) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 857
+   在 CZZD.ERP.SQLServerDAL.InventoryManage.AddInventory(BllInventoryTable BIModel) 位置 D:\ERP\ERP.SQLServerDAL\Stock\InventoryManage.cs:行号 142
+   在 CZZD.ERP.Bll.BInventory.AddInventory(BllInventoryTable BIModel) 位置 D:\ERP\ERP.Bll\Stock\BInventory.cs:行号 31
+   在 CZZD.ERP.WinUI.FrmInventoryStart.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Stock\FrmInventoryStart.cs:行号 257
+2013-03-05 16:51:44,106 [9][ERROR][FrmInventoryStart] - 盘点失败！
+System.FormatException: 将参数值从 String 转换到 DateTime 失败。 ---> System.FormatException: 该字符串未被识别为有效的 DateTime。
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 System.String.System.IConvertible.ToDateTime(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType)
+   在 System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   在 System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   在 System.Data.SqlClient.SqlCommand.BuildParamList(TdsParser parser, SqlParameterCollection parameters)
+   在 System.Data.SqlClient.SqlCommand.BuildExecuteSql(CommandBehavior behavior, String commandText, SqlParameterCollection parameters, _SqlRPC& rpc)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 CZZD.ERP.DBUtility.DbHelperSQL.ExecuteSqlTran(List`1 cmdList) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 857
+   在 CZZD.ERP.SQLServerDAL.InventoryManage.AddInventory(BllInventoryTable BIModel) 位置 D:\ERP\ERP.SQLServerDAL\Stock\InventoryManage.cs:行号 142
+   在 CZZD.ERP.Bll.BInventory.AddInventory(BllInventoryTable BIModel) 位置 D:\ERP\ERP.Bll\Stock\BInventory.cs:行号 31
+   在 CZZD.ERP.WinUI.FrmInventoryStart.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Stock\FrmInventoryStart.cs:行号 257
+2013-03-05 17:12:03,055 [9][ERROR][FrmInventoryStart] - 盘点失败！
+System.Data.SqlTypes.SqlTypeException: SqlDateTime 溢出。必须介于 1/1/1753 12:00:00 AM 和 12/31/9999 11:59:59 PM 之间。
+   在 System.Data.SqlTypes.SqlDateTime.FromTimeSpan(TimeSpan value)
+   在 System.Data.SqlTypes.SqlDateTime.FromDateTime(DateTime value)
+   在 System.Data.SqlClient.MetaType.FromDateTime(DateTime dateTime, Byte cb)
+   在 System.Data.SqlClient.TdsParser.WriteValue(Object value, MetaType type, Byte scale, Int32 actualLength, Int32 encodingByteSize, Int32 offset, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.TdsExecuteRPC(_SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 CZZD.ERP.DBUtility.DbHelperSQL.ExecuteSqlTran(List`1 cmdList) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 857
+   在 CZZD.ERP.SQLServerDAL.InventoryManage.AddInventory(BllInventoryTable BIModel) 位置 D:\ERP\ERP.SQLServerDAL\Stock\InventoryManage.cs:行号 136
+   在 CZZD.ERP.Bll.BInventory.AddInventory(BllInventoryTable BIModel) 位置 D:\ERP\ERP.Bll\Stock\BInventory.cs:行号 31
+   在 CZZD.ERP.WinUI.FrmInventoryStart.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Stock\FrmInventoryStart.cs:行号 257

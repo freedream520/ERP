@@ -1,0 +1,129 @@
+2013-04-19 09:09:45,801 [10][ERROR][FrmOrdersEntry] - CellValidated error!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CZZD.ERP.WinUI.FrmOrdersEntry.dgvData_CellValidated(Object sender, DataGridViewCellEventArgs e) 位置 D:\ERP\ERP.WinUI\Order\FrmOrdersEntry.cs:行号 489
+2013-04-19 18:21:59,978 [9][ERROR][FrmChoseReceipt] - 入库输入失败!
+System.FormatException: 将参数值从 String 转换到 Int32 失败。 ---> System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType)
+   在 System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   在 System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   在 System.Data.SqlClient.SqlCommand.BuildParamList(TdsParser parser, SqlParameterCollection parameters)
+   在 System.Data.SqlClient.SqlCommand.BuildExecuteSql(CommandBehavior behavior, String commandText, SqlParameterCollection parameters, _SqlRPC& rpc)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 CZZD.ERP.DBUtility.DbHelperSQL.ExecuteSqlTran(List`1 cmdList) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 853
+   在 CZZD.ERP.SQLServerDAL.ReceiptManage.UpdataReceipt(BllReceiptPlanTable model, BllReceiptTable rtModel, Boolean IsInstallments) 位置 D:\ERP\ERP.SQLServerDAL\Stock\ReceiptManage.cs:行号 631
+   在 CZZD.ERP.Bll.BReceipt.UpdataReceipt(BllReceiptPlanTable model, BllReceiptTable rtModel, Boolean IsInstallments) 位置 D:\ERP\ERP.Bll\Stock\BReceipt.cs:行号 66
+   在 CZZD.ERP.WinUI.FrmChoseReceipt.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Stock\FrmChoseReceipt.cs:行号 58
+2013-04-19 18:22:05,828 [9][ERROR][FrmChoseReceipt] - 入库输入失败!
+System.FormatException: 将参数值从 String 转换到 Int32 失败。 ---> System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType)
+   在 System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   在 System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   在 System.Data.SqlClient.SqlCommand.BuildParamList(TdsParser parser, SqlParameterCollection parameters)
+   在 System.Data.SqlClient.SqlCommand.BuildExecuteSql(CommandBehavior behavior, String commandText, SqlParameterCollection parameters, _SqlRPC& rpc)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 CZZD.ERP.DBUtility.DbHelperSQL.ExecuteSqlTran(List`1 cmdList) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 853
+   在 CZZD.ERP.SQLServerDAL.ReceiptManage.UpdataReceipt(BllReceiptPlanTable model, BllReceiptTable rtModel, Boolean IsInstallments) 位置 D:\ERP\ERP.SQLServerDAL\Stock\ReceiptManage.cs:行号 631
+   在 CZZD.ERP.Bll.BReceipt.UpdataReceipt(BllReceiptPlanTable model, BllReceiptTable rtModel, Boolean IsInstallments) 位置 D:\ERP\ERP.Bll\Stock\BReceipt.cs:行号 66
+   在 CZZD.ERP.WinUI.FrmChoseReceipt.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Stock\FrmChoseReceipt.cs:行号 58
+2013-04-19 18:22:18,011 [9][ERROR][FrmChoseReceipt] - 入库输入失败!
+System.FormatException: 将参数值从 String 转换到 Int32 失败。 ---> System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType)
+   在 System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   在 System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   在 System.Data.SqlClient.SqlCommand.BuildParamList(TdsParser parser, SqlParameterCollection parameters)
+   在 System.Data.SqlClient.SqlCommand.BuildExecuteSql(CommandBehavior behavior, String commandText, SqlParameterCollection parameters, _SqlRPC& rpc)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 CZZD.ERP.DBUtility.DbHelperSQL.ExecuteSqlTran(List`1 cmdList) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 853
+   在 CZZD.ERP.SQLServerDAL.ReceiptManage.UpdataReceipt(BllReceiptPlanTable model, BllReceiptTable rtModel, Boolean IsInstallments) 位置 D:\ERP\ERP.SQLServerDAL\Stock\ReceiptManage.cs:行号 631
+   在 CZZD.ERP.Bll.BReceipt.UpdataReceipt(BllReceiptPlanTable model, BllReceiptTable rtModel, Boolean IsInstallments) 位置 D:\ERP\ERP.Bll\Stock\BReceipt.cs:行号 66
+   在 CZZD.ERP.WinUI.FrmChoseReceipt.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Stock\FrmChoseReceipt.cs:行号 58
+2013-04-19 18:23:56,992 [9][ERROR][FrmChoseReceipt] - 入库输入失败!
+System.FormatException: 将参数值从 String 转换到 Int32 失败。 ---> System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType)
+   在 System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   在 System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   在 System.Data.SqlClient.SqlCommand.BuildParamList(TdsParser parser, SqlParameterCollection parameters)
+   在 System.Data.SqlClient.SqlCommand.BuildExecuteSql(CommandBehavior behavior, String commandText, SqlParameterCollection parameters, _SqlRPC& rpc)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 CZZD.ERP.DBUtility.DbHelperSQL.ExecuteSqlTran(List`1 cmdList) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 853
+   在 CZZD.ERP.SQLServerDAL.ReceiptManage.UpdataReceipt(BllReceiptPlanTable model, BllReceiptTable rtModel, Boolean IsInstallments) 位置 D:\ERP\ERP.SQLServerDAL\Stock\ReceiptManage.cs:行号 631
+   在 CZZD.ERP.Bll.BReceipt.UpdataReceipt(BllReceiptPlanTable model, BllReceiptTable rtModel, Boolean IsInstallments) 位置 D:\ERP\ERP.Bll\Stock\BReceipt.cs:行号 66
+   在 CZZD.ERP.WinUI.FrmChoseReceipt.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Stock\FrmChoseReceipt.cs:行号 58
+2013-04-19 18:25:01,155 [9][ERROR][FrmChoseReceipt] - 入库输入失败!
+System.FormatException: 将参数值从 String 转换到 Int32 失败。 ---> System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType)
+   在 System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   在 System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   在 System.Data.SqlClient.SqlCommand.BuildParamList(TdsParser parser, SqlParameterCollection parameters)
+   在 System.Data.SqlClient.SqlCommand.BuildExecuteSql(CommandBehavior behavior, String commandText, SqlParameterCollection parameters, _SqlRPC& rpc)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 CZZD.ERP.DBUtility.DbHelperSQL.ExecuteSqlTran(List`1 cmdList) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 853
+   在 CZZD.ERP.SQLServerDAL.ReceiptManage.UpdataReceipt(BllReceiptPlanTable model, BllReceiptTable rtModel, Boolean IsInstallments) 位置 D:\ERP\ERP.SQLServerDAL\Stock\ReceiptManage.cs:行号 631
+   在 CZZD.ERP.Bll.BReceipt.UpdataReceipt(BllReceiptPlanTable model, BllReceiptTable rtModel, Boolean IsInstallments) 位置 D:\ERP\ERP.Bll\Stock\BReceipt.cs:行号 66
+   在 CZZD.ERP.WinUI.FrmChoseReceipt.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Stock\FrmChoseReceipt.cs:行号 58
+2013-04-19 18:26:42,712 [9][ERROR][FrmChoseReceipt] - 入库输入失败!
+System.FormatException: 将参数值从 String 转换到 Int32 失败。 ---> System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType)
+   在 System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   在 System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   在 System.Data.SqlClient.SqlCommand.BuildParamList(TdsParser parser, SqlParameterCollection parameters)
+   在 System.Data.SqlClient.SqlCommand.BuildExecuteSql(CommandBehavior behavior, String commandText, SqlParameterCollection parameters, _SqlRPC& rpc)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 CZZD.ERP.DBUtility.DbHelperSQL.ExecuteSqlTran(List`1 cmdList) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 853
+   在 CZZD.ERP.SQLServerDAL.ReceiptManage.UpdataReceipt(BllReceiptPlanTable model, BllReceiptTable rtModel, Boolean IsInstallments) 位置 D:\ERP\ERP.SQLServerDAL\Stock\ReceiptManage.cs:行号 631
+   在 CZZD.ERP.Bll.BReceipt.UpdataReceipt(BllReceiptPlanTable model, BllReceiptTable rtModel, Boolean IsInstallments) 位置 D:\ERP\ERP.Bll\Stock\BReceipt.cs:行号 66
+   在 CZZD.ERP.WinUI.FrmChoseReceipt.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Stock\FrmChoseReceipt.cs:行号 58

@@ -1,0 +1,9 @@
+2013-04-06 16:46:52,357 [10][ERROR][FrmTransferReceipt] - 未将对象引用设置到对象的实例。
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CZZD.ERP.WinUI.FrmTransferReceipt.dgvData_CellValidated(Object sender, DataGridViewCellEventArgs e) 位置 D:\ERP\ERP.WinUI\Stock\FrmTransferReceipt.cs:行号 377
+2013-04-06 16:52:51,416 [9][ERROR][FrmStockAdjustment] - 未将对象引用设置到对象的实例。
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CZZD.ERP.WinUI.FrmStockAdjustment.dgvData_CellValidated(Object sender, DataGridViewCellEventArgs e) 位置 D:\ERP\ERP.WinUI\Stock\FrmStockAdjustment.cs:行号 353
+2013-04-06 17:41:53,625 [8][ERROR][FrmStockAdjustment] - 未将对象引用设置到对象的实例。
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CZZD.ERP.WinUI.FrmStockAdjustment.dgvData_CellValidated(Object sender, DataGridViewCellEventArgs e) 位置 D:\ERP\ERP.WinUI\Stock\FrmStockAdjustment.cs:行号 353

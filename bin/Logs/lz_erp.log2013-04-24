@@ -1,0 +1,18 @@
+2013-04-24 14:52:52,606 [10][ERROR][FrmOrdersEntry] - CellValidated error!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CZZD.ERP.WinUI.FrmOrdersEntry.dgvData_CellValidated(Object sender, DataGridViewCellEventArgs e) 位置 D:\ERP\ERP.WinUI\Order\FrmOrdersEntry.cs:行号 489
+2013-04-24 15:42:40,163 [9][ERROR][FrmOrdersEntry] - CellValidated error!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CZZD.ERP.WinUI.FrmOrdersEntry.dgvData_CellValidated(Object sender, DataGridViewCellEventArgs e) 位置 D:\ERP\ERP.WinUI\Order\FrmOrdersEntry.cs:行号 489
+2013-04-24 15:46:38,565 [9][ERROR][FrmOrdersEntry] - CellValidated error!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CZZD.ERP.WinUI.FrmOrdersEntry.dgvData_CellValidated(Object sender, DataGridViewCellEventArgs e) 位置 D:\ERP\ERP.WinUI\Order\FrmOrdersEntry.cs:行号 489
+2013-04-24 15:50:22,530 [10][ERROR][FrmOrdersEntry] - CellValidated error!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CZZD.ERP.WinUI.FrmOrdersEntry.dgvData_CellValidated(Object sender, DataGridViewCellEventArgs e) 位置 D:\ERP\ERP.WinUI\Order\FrmOrdersEntry.cs:行号 489
+2013-04-24 15:51:10,113 [10][ERROR][FrmOrdersEntry] - CellValidated error!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CZZD.ERP.WinUI.FrmOrdersEntry.dgvData_CellValidated(Object sender, DataGridViewCellEventArgs e) 位置 D:\ERP\ERP.WinUI\Order\FrmOrdersEntry.cs:行号 489
+2013-04-24 15:52:42,793 [10][ERROR][FrmOrdersEntry] - CellValidated error!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CZZD.ERP.WinUI.FrmOrdersEntry.dgvData_CellValidated(Object sender, DataGridViewCellEventArgs e) 位置 D:\ERP\ERP.WinUI\Order\FrmOrdersEntry.cs:行号 489

@@ -1,0 +1,177 @@
+2013-03-14 11:00:05,661 [10][ERROR][FrmSlipType] - 订单类型中获取当前数据失败!
+System.Exception: 列名 'CREATE_USER' 无效。
+列名 'CREATE_DATE_TIME' 无效。
+列名 'LAST_UPDATE_USER' 无效。
+列名 'LAST_UPDATE_TIME' 无效。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.Query(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 1046
+   在 CZZD.ERP.SQLServerDAL.SlipTypeManage.GetModel(String TYPE_CODE, String CODE) 位置 D:\ERP\ERP.SQLServerDAL\Master\SlipTypeManage.cs:行号 145
+   在 CZZD.ERP.Bll.BSlipType.GetModel(String TYPE_CODE, String CODE) 位置 D:\ERP\ERP.Bll\Master\BSlipType.cs:行号 54
+   在 CZZD.ERP.WinUI.FrmSlipType.GetCurrentSelectedTable() 位置 D:\ERP\ERP.WinUI\Master\FrmSlipType.cs:行号 268
+2013-03-14 11:09:25,146 [8][ERROR][FrmSlipType] - 订单类型中获取当前数据失败!
+System.Exception: 列名 'LAST_UPDATE_TIME' 无效。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.Query(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 1046
+   在 CZZD.ERP.SQLServerDAL.SlipTypeManage.GetModel(String TYPE_CODE, String CODE) 位置 D:\ERP\ERP.SQLServerDAL\Master\SlipTypeManage.cs:行号 145
+   在 CZZD.ERP.Bll.BSlipType.GetModel(String TYPE_CODE, String CODE) 位置 D:\ERP\ERP.Bll\Master\BSlipType.cs:行号 54
+   在 CZZD.ERP.WinUI.FrmSlipType.GetCurrentSelectedTable() 位置 D:\ERP\ERP.WinUI\Master\FrmSlipType.cs:行号 268
+2013-03-14 11:09:25,723 [8][ERROR][FrmSlipType] - 订单类型中获取当前数据失败!
+System.Exception: 列名 'LAST_UPDATE_TIME' 无效。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.Query(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 1046
+   在 CZZD.ERP.SQLServerDAL.SlipTypeManage.GetModel(String TYPE_CODE, String CODE) 位置 D:\ERP\ERP.SQLServerDAL\Master\SlipTypeManage.cs:行号 145
+   在 CZZD.ERP.Bll.BSlipType.GetModel(String TYPE_CODE, String CODE) 位置 D:\ERP\ERP.Bll\Master\BSlipType.cs:行号 54
+   在 CZZD.ERP.WinUI.FrmSlipType.GetCurrentSelectedTable() 位置 D:\ERP\ERP.WinUI\Master\FrmSlipType.cs:行号 268
+2013-03-14 11:09:26,472 [8][ERROR][FrmSlipType] - 订单类型中获取当前数据失败!
+System.Exception: 列名 'LAST_UPDATE_TIME' 无效。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.Query(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 1046
+   在 CZZD.ERP.SQLServerDAL.SlipTypeManage.GetModel(String TYPE_CODE, String CODE) 位置 D:\ERP\ERP.SQLServerDAL\Master\SlipTypeManage.cs:行号 145
+   在 CZZD.ERP.Bll.BSlipType.GetModel(String TYPE_CODE, String CODE) 位置 D:\ERP\ERP.Bll\Master\BSlipType.cs:行号 54
+   在 CZZD.ERP.WinUI.FrmSlipType.GetCurrentSelectedTable() 位置 D:\ERP\ERP.WinUI\Master\FrmSlipType.cs:行号 268
+2013-03-14 11:10:53,573 [9][ERROR][FrmSlipType] - 订单类型中获取当前数据失败!
+System.Exception: 列名 'LAST_UPDATE_TIME' 无效。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.Query(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 1046
+   在 CZZD.ERP.SQLServerDAL.SlipTypeManage.GetModel(String TYPE_CODE, String CODE) 位置 D:\ERP\ERP.SQLServerDAL\Master\SlipTypeManage.cs:行号 145
+   在 CZZD.ERP.Bll.BSlipType.GetModel(String TYPE_CODE, String CODE) 位置 D:\ERP\ERP.Bll\Master\BSlipType.cs:行号 54
+   在 CZZD.ERP.WinUI.FrmSlipType.GetCurrentSelectedTable() 位置 D:\ERP\ERP.WinUI\Master\FrmSlipType.cs:行号 268
+2013-03-14 11:10:53,947 [9][ERROR][FrmSlipType] - 订单类型中获取当前数据失败!
+System.Exception: 列名 'LAST_UPDATE_TIME' 无效。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.Query(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 1046
+   在 CZZD.ERP.SQLServerDAL.SlipTypeManage.GetModel(String TYPE_CODE, String CODE) 位置 D:\ERP\ERP.SQLServerDAL\Master\SlipTypeManage.cs:行号 145
+   在 CZZD.ERP.Bll.BSlipType.GetModel(String TYPE_CODE, String CODE) 位置 D:\ERP\ERP.Bll\Master\BSlipType.cs:行号 54
+   在 CZZD.ERP.WinUI.FrmSlipType.GetCurrentSelectedTable() 位置 D:\ERP\ERP.WinUI\Master\FrmSlipType.cs:行号 268
+2013-03-14 11:10:54,322 [9][ERROR][FrmSlipType] - 订单类型中获取当前数据失败!
+System.Exception: 列名 'LAST_UPDATE_TIME' 无效。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.Query(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 1046
+   在 CZZD.ERP.SQLServerDAL.SlipTypeManage.GetModel(String TYPE_CODE, String CODE) 位置 D:\ERP\ERP.SQLServerDAL\Master\SlipTypeManage.cs:行号 145
+   在 CZZD.ERP.Bll.BSlipType.GetModel(String TYPE_CODE, String CODE) 位置 D:\ERP\ERP.Bll\Master\BSlipType.cs:行号 54
+   在 CZZD.ERP.WinUI.FrmSlipType.GetCurrentSelectedTable() 位置 D:\ERP\ERP.WinUI\Master\FrmSlipType.cs:行号 268
+2013-03-14 11:10:55,336 [9][ERROR][FrmSlipType] - 订单类型中获取当前数据失败!
+System.Exception: 列名 'LAST_UPDATE_TIME' 无效。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.Query(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 1046
+   在 CZZD.ERP.SQLServerDAL.SlipTypeManage.GetModel(String TYPE_CODE, String CODE) 位置 D:\ERP\ERP.SQLServerDAL\Master\SlipTypeManage.cs:行号 145
+   在 CZZD.ERP.Bll.BSlipType.GetModel(String TYPE_CODE, String CODE) 位置 D:\ERP\ERP.Bll\Master\BSlipType.cs:行号 54
+   在 CZZD.ERP.WinUI.FrmSlipType.GetCurrentSelectedTable() 位置 D:\ERP\ERP.WinUI\Master\FrmSlipType.cs:行号 268
+2013-03-14 11:10:56,085 [9][ERROR][FrmSlipType] - 订单类型中获取当前数据失败!
+System.Exception: 列名 'LAST_UPDATE_TIME' 无效。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.Query(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 1046
+   在 CZZD.ERP.SQLServerDAL.SlipTypeManage.GetModel(String TYPE_CODE, String CODE) 位置 D:\ERP\ERP.SQLServerDAL\Master\SlipTypeManage.cs:行号 145
+   在 CZZD.ERP.Bll.BSlipType.GetModel(String TYPE_CODE, String CODE) 位置 D:\ERP\ERP.Bll\Master\BSlipType.cs:行号 54
+   在 CZZD.ERP.WinUI.FrmSlipType.GetCurrentSelectedTable() 位置 D:\ERP\ERP.WinUI\Master\FrmSlipType.cs:行号 268
+2013-03-14 11:10:56,880 [9][ERROR][FrmSlipType] - 订单类型中获取当前数据失败!
+System.Exception: 列名 'LAST_UPDATE_TIME' 无效。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.Query(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 1046
+   在 CZZD.ERP.SQLServerDAL.SlipTypeManage.GetModel(String TYPE_CODE, String CODE) 位置 D:\ERP\ERP.SQLServerDAL\Master\SlipTypeManage.cs:行号 145
+   在 CZZD.ERP.Bll.BSlipType.GetModel(String TYPE_CODE, String CODE) 位置 D:\ERP\ERP.Bll\Master\BSlipType.cs:行号 54
+   在 CZZD.ERP.WinUI.FrmSlipType.GetCurrentSelectedTable() 位置 D:\ERP\ERP.WinUI\Master\FrmSlipType.cs:行号 268
+2013-03-14 11:14:52,538 [10][ERROR][FrmSlipType] - 订单类型中获取当前数据失败!
+System.Exception: 列名 'LAST_UPDATE_TIME' 无效。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.Query(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 1046
+   在 CZZD.ERP.SQLServerDAL.SlipTypeManage.GetModel(String TYPE_CODE, String CODE) 位置 D:\ERP\ERP.SQLServerDAL\Master\SlipTypeManage.cs:行号 145
+   在 CZZD.ERP.Bll.BSlipType.GetModel(String TYPE_CODE, String CODE) 位置 D:\ERP\ERP.Bll\Master\BSlipType.cs:行号 54
+   在 CZZD.ERP.WinUI.FrmSlipType.GetCurrentSelectedTable() 位置 D:\ERP\ERP.WinUI\Master\FrmSlipType.cs:行号 270
+2013-03-14 11:16:13,808 [10][ERROR][FrmSlipType] - 订单类型中获取当前数据失败!
+System.Exception: 列名 'LAST_UPDATE_TIME' 无效。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.Query(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 1046
+   在 CZZD.ERP.SQLServerDAL.SlipTypeManage.GetModel(String TYPE_CODE, String CODE) 位置 D:\ERP\ERP.SQLServerDAL\Master\SlipTypeManage.cs:行号 145
+   在 CZZD.ERP.Bll.BSlipType.GetModel(String TYPE_CODE, String CODE) 位置 D:\ERP\ERP.Bll\Master\BSlipType.cs:行号 54
+   在 CZZD.ERP.WinUI.FrmSlipType.GetCurrentSelectedTable() 位置 D:\ERP\ERP.WinUI\Master\FrmSlipType.cs:行号 269
+2013-03-14 11:19:17,855 [9][ERROR][FrmSlipType] - 订单类型中获取当前数据失败!
+System.Exception: 列名 'LAST_UPDATE_TIME' 无效。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.Query(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 1046
+   在 CZZD.ERP.SQLServerDAL.SlipTypeManage.GetModel(String TYPE_CODE, String CODE) 位置 D:\ERP\ERP.SQLServerDAL\Master\SlipTypeManage.cs:行号 145
+   在 CZZD.ERP.Bll.BSlipType.GetModel(String TYPE_CODE, String CODE) 位置 D:\ERP\ERP.Bll\Master\BSlipType.cs:行号 54
+   在 CZZD.ERP.WinUI.FrmSlipType.GetCurrentSelectedTable() 位置 D:\ERP\ERP.WinUI\Master\FrmSlipType.cs:行号 268
+2013-03-14 11:19:18,354 [9][ERROR][FrmSlipType] - 订单类型中获取当前数据失败!
+System.Exception: 列名 'LAST_UPDATE_TIME' 无效。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.Query(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 1046
+   在 CZZD.ERP.SQLServerDAL.SlipTypeManage.GetModel(String TYPE_CODE, String CODE) 位置 D:\ERP\ERP.SQLServerDAL\Master\SlipTypeManage.cs:行号 145
+   在 CZZD.ERP.Bll.BSlipType.GetModel(String TYPE_CODE, String CODE) 位置 D:\ERP\ERP.Bll\Master\BSlipType.cs:行号 54
+   在 CZZD.ERP.WinUI.FrmSlipType.GetCurrentSelectedTable() 位置 D:\ERP\ERP.WinUI\Master\FrmSlipType.cs:行号 268
+2013-03-14 11:19:18,978 [9][ERROR][FrmSlipType] - 订单类型中获取当前数据失败!
+System.Exception: 列名 'LAST_UPDATE_TIME' 无效。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.Query(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 1046
+   在 CZZD.ERP.SQLServerDAL.SlipTypeManage.GetModel(String TYPE_CODE, String CODE) 位置 D:\ERP\ERP.SQLServerDAL\Master\SlipTypeManage.cs:行号 145
+   在 CZZD.ERP.Bll.BSlipType.GetModel(String TYPE_CODE, String CODE) 位置 D:\ERP\ERP.Bll\Master\BSlipType.cs:行号 54
+   在 CZZD.ERP.WinUI.FrmSlipType.GetCurrentSelectedTable() 位置 D:\ERP\ERP.WinUI\Master\FrmSlipType.cs:行号 268
+2013-03-14 11:19:20,475 [9][ERROR][FrmSlipType] - 订单类型中获取当前数据失败!
+System.Exception: 列名 'LAST_UPDATE_TIME' 无效。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.Query(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 1046
+   在 CZZD.ERP.SQLServerDAL.SlipTypeManage.GetModel(String TYPE_CODE, String CODE) 位置 D:\ERP\ERP.SQLServerDAL\Master\SlipTypeManage.cs:行号 145
+   在 CZZD.ERP.Bll.BSlipType.GetModel(String TYPE_CODE, String CODE) 位置 D:\ERP\ERP.Bll\Master\BSlipType.cs:行号 54
+   在 CZZD.ERP.WinUI.FrmSlipType.GetCurrentSelectedTable() 位置 D:\ERP\ERP.WinUI\Master\FrmSlipType.cs:行号 268
+2013-03-14 11:19:21,770 [9][ERROR][FrmSlipType] - 订单类型中获取当前数据失败!
+System.Exception: 列名 'LAST_UPDATE_TIME' 无效。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.Query(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 1046
+   在 CZZD.ERP.SQLServerDAL.SlipTypeManage.GetModel(String TYPE_CODE, String CODE) 位置 D:\ERP\ERP.SQLServerDAL\Master\SlipTypeManage.cs:行号 145
+   在 CZZD.ERP.Bll.BSlipType.GetModel(String TYPE_CODE, String CODE) 位置 D:\ERP\ERP.Bll\Master\BSlipType.cs:行号 54
+   在 CZZD.ERP.WinUI.FrmSlipType.GetCurrentSelectedTable() 位置 D:\ERP\ERP.WinUI\Master\FrmSlipType.cs:行号 268
+2013-03-14 11:19:22,238 [9][ERROR][FrmSlipType] - 订单类型中获取当前数据失败!
+System.Exception: 列名 'LAST_UPDATE_TIME' 无效。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.Query(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 1046
+   在 CZZD.ERP.SQLServerDAL.SlipTypeManage.GetModel(String TYPE_CODE, String CODE) 位置 D:\ERP\ERP.SQLServerDAL\Master\SlipTypeManage.cs:行号 145
+   在 CZZD.ERP.Bll.BSlipType.GetModel(String TYPE_CODE, String CODE) 位置 D:\ERP\ERP.Bll\Master\BSlipType.cs:行号 54
+   在 CZZD.ERP.WinUI.FrmSlipType.GetCurrentSelectedTable() 位置 D:\ERP\ERP.WinUI\Master\FrmSlipType.cs:行号 268
+2013-03-14 11:20:57,279 [9][ERROR][FrmSlipType] - 订单类型中获取当前数据失败!
+System.Exception: 列名 'LAST_UPDATE_TIME' 无效。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.Query(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 1046
+   在 CZZD.ERP.SQLServerDAL.SlipTypeManage.GetModel(String TYPE_CODE, String CODE) 位置 D:\ERP\ERP.SQLServerDAL\Master\SlipTypeManage.cs:行号 145
+   在 CZZD.ERP.Bll.BSlipType.GetModel(String TYPE_CODE, String CODE) 位置 D:\ERP\ERP.Bll\Master\BSlipType.cs:行号 54
+   在 CZZD.ERP.WinUI.FrmSlipType.GetCurrentSelectedTable() 位置 D:\ERP\ERP.WinUI\Master\FrmSlipType.cs:行号 268
+2013-03-14 11:20:58,932 [9][ERROR][FrmSlipType] - 订单类型中获取当前数据失败!
+System.Exception: 列名 'LAST_UPDATE_TIME' 无效。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.Query(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 1046
+   在 CZZD.ERP.SQLServerDAL.SlipTypeManage.GetModel(String TYPE_CODE, String CODE) 位置 D:\ERP\ERP.SQLServerDAL\Master\SlipTypeManage.cs:行号 145
+   在 CZZD.ERP.Bll.BSlipType.GetModel(String TYPE_CODE, String CODE) 位置 D:\ERP\ERP.Bll\Master\BSlipType.cs:行号 54
+   在 CZZD.ERP.WinUI.FrmSlipType.GetCurrentSelectedTable() 位置 D:\ERP\ERP.WinUI\Master\FrmSlipType.cs:行号 268
+2013-03-14 11:20:59,135 [9][ERROR][FrmSlipType] - 订单类型中获取当前数据失败!
+System.Exception: 列名 'LAST_UPDATE_TIME' 无效。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.Query(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 1046
+   在 CZZD.ERP.SQLServerDAL.SlipTypeManage.GetModel(String TYPE_CODE, String CODE) 位置 D:\ERP\ERP.SQLServerDAL\Master\SlipTypeManage.cs:行号 145
+   在 CZZD.ERP.Bll.BSlipType.GetModel(String TYPE_CODE, String CODE) 位置 D:\ERP\ERP.Bll\Master\BSlipType.cs:行号 54
+   在 CZZD.ERP.WinUI.FrmSlipType.GetCurrentSelectedTable() 位置 D:\ERP\ERP.WinUI\Master\FrmSlipType.cs:行号 268
+2013-03-14 11:20:59,322 [9][ERROR][FrmSlipType] - 订单类型中获取当前数据失败!
+System.Exception: 列名 'LAST_UPDATE_TIME' 无效。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.Query(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 1046
+   在 CZZD.ERP.SQLServerDAL.SlipTypeManage.GetModel(String TYPE_CODE, String CODE) 位置 D:\ERP\ERP.SQLServerDAL\Master\SlipTypeManage.cs:行号 145
+   在 CZZD.ERP.Bll.BSlipType.GetModel(String TYPE_CODE, String CODE) 位置 D:\ERP\ERP.Bll\Master\BSlipType.cs:行号 54
+   在 CZZD.ERP.WinUI.FrmSlipType.GetCurrentSelectedTable() 位置 D:\ERP\ERP.WinUI\Master\FrmSlipType.cs:行号 268
+2013-03-14 11:20:59,494 [9][ERROR][FrmSlipType] - 订单类型中获取当前数据失败!
+System.Exception: 列名 'LAST_UPDATE_TIME' 无效。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.Query(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 1046
+   在 CZZD.ERP.SQLServerDAL.SlipTypeManage.GetModel(String TYPE_CODE, String CODE) 位置 D:\ERP\ERP.SQLServerDAL\Master\SlipTypeManage.cs:行号 145
+   在 CZZD.ERP.Bll.BSlipType.GetModel(String TYPE_CODE, String CODE) 位置 D:\ERP\ERP.Bll\Master\BSlipType.cs:行号 54
+   在 CZZD.ERP.WinUI.FrmSlipType.GetCurrentSelectedTable() 位置 D:\ERP\ERP.WinUI\Master\FrmSlipType.cs:行号 268
+2013-03-14 11:20:59,697 [9][ERROR][FrmSlipType] - 订单类型中获取当前数据失败!
+System.Exception: 列名 'LAST_UPDATE_TIME' 无效。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.Query(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 1046
+   在 CZZD.ERP.SQLServerDAL.SlipTypeManage.GetModel(String TYPE_CODE, String CODE) 位置 D:\ERP\ERP.SQLServerDAL\Master\SlipTypeManage.cs:行号 145
+   在 CZZD.ERP.Bll.BSlipType.GetModel(String TYPE_CODE, String CODE) 位置 D:\ERP\ERP.Bll\Master\BSlipType.cs:行号 54
+   在 CZZD.ERP.WinUI.FrmSlipType.GetCurrentSelectedTable() 位置 D:\ERP\ERP.WinUI\Master\FrmSlipType.cs:行号 268
+2013-03-14 18:12:43,089 [9][ERROR][FrmProductBuild] - 组成失败！
+System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 CZZD.ERP.SQLServerDAL.StockManage.AddBuild(BllProductBuildTable PBModel) 位置 D:\ERP\ERP.SQLServerDAL\Stock\StockManage.cs:行号 651
+   在 CZZD.ERP.Bll.BStock.AddBuild(BllProductBuildTable PBModel) 位置 D:\ERP\ERP.Bll\Stock\BStock.cs:行号 137
+   在 CZZD.ERP.WinUI.FrmProductBuild.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Stock\FrmProductBuild.cs:行号 343
+2013-03-14 18:12:45,179 [9][ERROR][FrmProductBuild] - 组成失败！
+System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 CZZD.ERP.SQLServerDAL.StockManage.AddBuild(BllProductBuildTable PBModel) 位置 D:\ERP\ERP.SQLServerDAL\Stock\StockManage.cs:行号 651
+   在 CZZD.ERP.Bll.BStock.AddBuild(BllProductBuildTable PBModel) 位置 D:\ERP\ERP.Bll\Stock\BStock.cs:行号 137
+   在 CZZD.ERP.WinUI.FrmProductBuild.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Stock\FrmProductBuild.cs:行号 343
+2013-03-14 18:12:46,898 [9][ERROR][FrmProductBuild] - 组成失败！
+System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 CZZD.ERP.SQLServerDAL.StockManage.AddBuild(BllProductBuildTable PBModel) 位置 D:\ERP\ERP.SQLServerDAL\Stock\StockManage.cs:行号 651
+   在 CZZD.ERP.Bll.BStock.AddBuild(BllProductBuildTable PBModel) 位置 D:\ERP\ERP.Bll\Stock\BStock.cs:行号 137
+   在 CZZD.ERP.WinUI.FrmProductBuild.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Stock\FrmProductBuild.cs:行号 343
+2013-03-14 18:13:59,404 [10][ERROR][FrmProductBuild] - 组成失败！
+System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 CZZD.ERP.SQLServerDAL.StockManage.AddBuild(BllProductBuildTable PBModel) 位置 D:\ERP\ERP.SQLServerDAL\Stock\StockManage.cs:行号 651
+   在 CZZD.ERP.Bll.BStock.AddBuild(BllProductBuildTable PBModel) 位置 D:\ERP\ERP.Bll\Stock\BStock.cs:行号 137
+   在 CZZD.ERP.WinUI.FrmProductBuild.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Stock\FrmProductBuild.cs:行号 343
+2013-03-14 18:14:02,405 [10][ERROR][FrmProductBuild] - 组成失败！
+System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 CZZD.ERP.SQLServerDAL.StockManage.AddBuild(BllProductBuildTable PBModel) 位置 D:\ERP\ERP.SQLServerDAL\Stock\StockManage.cs:行号 651
+   在 CZZD.ERP.Bll.BStock.AddBuild(BllProductBuildTable PBModel) 位置 D:\ERP\ERP.Bll\Stock\BStock.cs:行号 137
+   在 CZZD.ERP.WinUI.FrmProductBuild.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Stock\FrmProductBuild.cs:行号 343
+2013-03-14 18:14:48,958 [10][ERROR][FrmProductBuild] - 组成失败！
+System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 CZZD.ERP.SQLServerDAL.StockManage.AddBuild(BllProductBuildTable PBModel) 位置 D:\ERP\ERP.SQLServerDAL\Stock\StockManage.cs:行号 651
+   在 CZZD.ERP.Bll.BStock.AddBuild(BllProductBuildTable PBModel) 位置 D:\ERP\ERP.Bll\Stock\BStock.cs:行号 137
+   在 CZZD.ERP.WinUI.FrmProductBuild.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Stock\FrmProductBuild.cs:行号 343

@@ -1,0 +1,16 @@
+D:\ERP\ERP.CacheData\bin\Debug\ERP.CacheData.dll
+D:\ERP\ERP.CacheData\bin\Debug\ERP.CacheData.pdb
+D:\ERP\ERP.CacheData\obj\Debug\ResolveAssemblyReference.cache
+D:\ERP\ERP.CacheData\obj\Debug\ERP.CacheData.dll
+D:\ERP\ERP.CacheData\obj\Debug\ERP.CacheData.pdb
+D:\ERP\ERP.CacheData\bin\Debug\ERP.Bll.dll
+D:\ERP\ERP.CacheData\bin\Debug\ERP.Model.dll
+D:\ERP\ERP.CacheData\bin\Debug\ERP.Common.dll
+D:\ERP\ERP.CacheData\bin\Debug\ERP.IDAL.dll
+D:\ERP\ERP.CacheData\bin\Debug\ERP.DALFactory.dll
+D:\ERP\ERP.CacheData\bin\Debug\ERP.Bll.pdb
+D:\ERP\ERP.CacheData\bin\Debug\ERP.Model.pdb
+D:\ERP\ERP.CacheData\bin\Debug\ERP.Common.pdb
+D:\ERP\ERP.CacheData\bin\Debug\ERP.IDAL.pdb
+D:\ERP\ERP.CacheData\bin\Debug\ERP.DALFactory.pdb
+D:\ERP\ERP.CacheData\bin\Debug\log4net.dll

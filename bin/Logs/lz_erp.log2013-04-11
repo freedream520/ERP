@@ -1,0 +1,21 @@
+2013-04-11 15:59:58,886 [10][ERROR][FrmPurchase] - 采购发票保存失败!!!!!
+System.Data.SqlClient.SqlException: 对象名  'BLL_PURCHASE' 无效。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.GetSingle(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 981
+   在 CZZD.ERP.SQLServerDAL.PurchaseManage.GetPurchaseMaxSlipNumber(String companyCode) 位置 D:\ERP\ERP.SQLServerDAL\Finance\PurchaseManage.cs:行号 141
+   在 CZZD.ERP.SQLServerDAL.PurchaseManage.Add(BllPurchaseTable model) 位置 D:\ERP\ERP.SQLServerDAL\Finance\PurchaseManage.cs:行号 37
+   在 CZZD.ERP.Bll.BPurchase.Add(BllPurchaseTable model) 位置 D:\ERP\ERP.Bll\Finance\BPurchase.cs:行号 27
+   在 CZZD.ERP.WinUI.FrmPurchase.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Finance\FrmPurchase.cs:行号 376
+2013-04-11 16:12:27,197 [10][ERROR][FrmPurchase] - 采购发票保存失败!!!!!
+System.Data.SqlClient.SqlException: 对象名  'BLL_PURCHASE' 无效。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.GetSingle(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 981
+   在 CZZD.ERP.SQLServerDAL.PurchaseManage.GetPurchaseMaxSlipNumber(String companyCode) 位置 D:\ERP\ERP.SQLServerDAL\Finance\PurchaseManage.cs:行号 141
+   在 CZZD.ERP.SQLServerDAL.PurchaseManage.Add(BllPurchaseTable model) 位置 D:\ERP\ERP.SQLServerDAL\Finance\PurchaseManage.cs:行号 37
+   在 CZZD.ERP.Bll.BPurchase.Add(BllPurchaseTable model) 位置 D:\ERP\ERP.Bll\Finance\BPurchase.cs:行号 27
+   在 CZZD.ERP.WinUI.FrmPurchase.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Finance\FrmPurchase.cs:行号 376
+2013-04-11 16:15:31,576 [9][ERROR][FrmPurchase] - 采购发票保存失败!!!!!
+System.Data.SqlClient.SqlException: 对象名  'BLL_PURCHASE' 无效。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.GetSingle(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 981
+   在 CZZD.ERP.SQLServerDAL.PurchaseManage.GetPurchaseMaxSlipNumber(String companyCode) 位置 D:\ERP\ERP.SQLServerDAL\Finance\PurchaseManage.cs:行号 141
+   在 CZZD.ERP.SQLServerDAL.PurchaseManage.Add(BllPurchaseTable model) 位置 D:\ERP\ERP.SQLServerDAL\Finance\PurchaseManage.cs:行号 37
+   在 CZZD.ERP.Bll.BPurchase.Add(BllPurchaseTable model) 位置 D:\ERP\ERP.Bll\Finance\BPurchase.cs:行号 27
+   在 CZZD.ERP.WinUI.FrmPurchase.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Finance\FrmPurchase.cs:行号 376

@@ -1,0 +1,5 @@
+2013-02-28 18:46:22,022 [8][ERROR][FrmTransferReceipt] - 新建订单保存失败！
+System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 CZZD.ERP.SQLServerDAL.TransferManage.Add(BllTransferReceiptTable TRModel) 位置 D:\ERP\ERP.SQLServerDAL\Stock\TransferManage.cs:行号 63
+   在 CZZD.ERP.Bll.BTransfer.Add(BllTransferReceiptTable TRModel) 位置 D:\ERP\ERP.Bll\Stock\BTransfer.cs:行号 20
+   在 CZZD.ERP.WinUI.FrmTransferReceipt.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Stock\FrmTransferReceipt.cs:行号 268

@@ -1,0 +1,57 @@
+2013-04-26 10:25:30,195 [10][ERROR][FrmStockAdjustment] - 未将对象引用设置到对象的实例。
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CZZD.ERP.WinUI.FrmStockAdjustment.dgvData_CellValidated(Object sender, DataGridViewCellEventArgs e) 位置 D:\ERP\ERP.WinUI\Stock\FrmStockAdjustment.cs:行号 369
+2013-04-26 10:25:34,563 [10][ERROR][FrmStockAdjustment] - 未将对象引用设置到对象的实例。
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CZZD.ERP.WinUI.FrmStockAdjustment.dgvData_CellValidated(Object sender, DataGridViewCellEventArgs e) 位置 D:\ERP\ERP.WinUI\Stock\FrmStockAdjustment.cs:行号 369
+2013-04-26 10:25:53,805 [10][ERROR][FrmStockAdjustment] - 未将对象引用设置到对象的实例。
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CZZD.ERP.WinUI.FrmStockAdjustment.dgvData_CellValidated(Object sender, DataGridViewCellEventArgs e) 位置 D:\ERP\ERP.WinUI\Stock\FrmStockAdjustment.cs:行号 378
+2013-04-26 10:27:02,802 [9][ERROR][FrmStockAdjustment] - 未将对象引用设置到对象的实例。
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CZZD.ERP.WinUI.FrmStockAdjustment.dgvData_CellValidated(Object sender, DataGridViewCellEventArgs e) 位置 D:\ERP\ERP.WinUI\Stock\FrmStockAdjustment.cs:行号 369
+2013-04-26 10:28:38,013 [10][ERROR][FrmStockAdjustment] - 未将对象引用设置到对象的实例。
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CZZD.ERP.WinUI.FrmStockAdjustment.dgvData_CellValidated(Object sender, DataGridViewCellEventArgs e) 位置 D:\ERP\ERP.WinUI\Stock\FrmStockAdjustment.cs:行号 369
+2013-04-26 10:59:15,123 [9][ERROR][FrmOrdersEntry] - CellValidated error!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CZZD.ERP.WinUI.FrmOrdersEntry.dgvData_CellValidated(Object sender, DataGridViewCellEventArgs e) 位置 D:\ERP\ERP.WinUI\Order\FrmOrdersEntry.cs:行号 511
+2013-04-26 11:05:27,001 [10][ERROR][FrmOrdersEntry] - 订单修改保存失败。
+System.Data.SqlClient.SqlException: 列名 'SHIPMENT_FLAG' 无效。
+列名 'ALLOATION_QUANTITY' 无效。
+列名 'SHIPMENT_QUANTITY' 无效。
+   在 CZZD.ERP.SQLServerDAL.OrderHeaderManage.Update(BllOrderHeaderTable headerModel) 位置 D:\ERP\ERP.SQLServerDAL\Order\OrderHeaderManage.cs:行号 517
+   在 CZZD.ERP.Bll.BOrderHeader.Update(BllOrderHeaderTable model) 位置 D:\ERP\ERP.Bll\Order\BOrderHeader.cs:行号 50
+   在 CZZD.ERP.WinUI.FrmOrdersEntry.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Order\FrmOrdersEntry.cs:行号 1064
+2013-04-26 11:07:22,325 [10][ERROR][FrmOrdersEntry] - 订单修改保存失败。
+System.Data.SqlClient.SqlException: 列名 'SHIPMENT_FLAG' 无效。
+列名 'ALLOATION_QUANTITY' 无效。
+列名 'SHIPMENT_QUANTITY' 无效。
+   在 CZZD.ERP.SQLServerDAL.OrderHeaderManage.Update(BllOrderHeaderTable headerModel) 位置 D:\ERP\ERP.SQLServerDAL\Order\OrderHeaderManage.cs:行号 517
+   在 CZZD.ERP.Bll.BOrderHeader.Update(BllOrderHeaderTable model) 位置 D:\ERP\ERP.Bll\Order\BOrderHeader.cs:行号 50
+   在 CZZD.ERP.WinUI.FrmOrdersEntry.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Order\FrmOrdersEntry.cs:行号 1064
+2013-04-26 11:10:23,380 [10][ERROR][FrmOrdersEntry] - 订单修改保存失败。
+System.Data.SqlClient.SqlException: 列名 'SHIPMENT_FLAG' 无效。
+列名 'ALLOATION_QUANTITY' 无效。
+列名 'SHIPMENT_QUANTITY' 无效。
+   在 CZZD.ERP.SQLServerDAL.OrderHeaderManage.Update(BllOrderHeaderTable headerModel) 位置 D:\ERP\ERP.SQLServerDAL\Order\OrderHeaderManage.cs:行号 517
+   在 CZZD.ERP.Bll.BOrderHeader.Update(BllOrderHeaderTable model) 位置 D:\ERP\ERP.Bll\Order\BOrderHeader.cs:行号 50
+   在 CZZD.ERP.WinUI.FrmOrdersEntry.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Order\FrmOrdersEntry.cs:行号 1064
+2013-04-26 11:17:52,740 [9][ERROR][FrmOrdersEntry] - CellValidated error!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CZZD.ERP.WinUI.FrmOrdersEntry.dgvData_CellValidated(Object sender, DataGridViewCellEventArgs e) 位置 D:\ERP\ERP.WinUI\Order\FrmOrdersEntry.cs:行号 511
+2013-04-26 16:03:54,690 [9][ERROR][FrmOrdersEntry] - CellValidated error!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CZZD.ERP.WinUI.FrmOrdersEntry.dgvData_CellValidated(Object sender, DataGridViewCellEventArgs e) 位置 D:\ERP\ERP.WinUI\Order\FrmOrdersEntry.cs:行号 511
+2013-04-26 16:04:55,366 [9][ERROR][FrmOrdersEntry] - CellValidated error!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CZZD.ERP.WinUI.FrmOrdersEntry.dgvData_CellValidated(Object sender, DataGridViewCellEventArgs e) 位置 D:\ERP\ERP.WinUI\Order\FrmOrdersEntry.cs:行号 511
+2013-04-26 16:05:14,710 [9][ERROR][FrmOrdersEntry] - CellValidated error!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CZZD.ERP.WinUI.FrmOrdersEntry.dgvData_CellValidated(Object sender, DataGridViewCellEventArgs e) 位置 D:\ERP\ERP.WinUI\Order\FrmOrdersEntry.cs:行号 511
+2013-04-26 16:06:03,377 [9][ERROR][FrmOrdersEntry] - CellValidated error!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CZZD.ERP.WinUI.FrmOrdersEntry.dgvData_CellValidated(Object sender, DataGridViewCellEventArgs e) 位置 D:\ERP\ERP.WinUI\Order\FrmOrdersEntry.cs:行号 511
+2013-04-26 17:22:57,410 [9][ERROR][FrmOrdersEntry] - CellValidated error!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CZZD.ERP.WinUI.FrmOrdersEntry.dgvData_CellValidated(Object sender, DataGridViewCellEventArgs e) 位置 D:\ERP\ERP.WinUI\Order\FrmOrdersEntry.cs:行号 511

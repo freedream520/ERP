@@ -1,0 +1,35 @@
+2013-05-27 09:27:13,745 [9][ERROR][FrmLogin] - 数据库连接失败！
+System.Exception: 列名 'INT_COMMUNITY_DATE' 无效。
+列名 'OUT_COMMUNITY_DATE' 无效。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.Query(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 1036
+   在 CZZD.ERP.SQLServerDAL.UserManage.GetModel(String CODE, String COMPANY_CODE) 位置 D:\ERP\ERP.SQLServerDAL\Master\UserManage.cs:行号 235
+   在 CZZD.ERP.Bll.BUser.GetModel(String CODE, String COMPANY_CODE) 位置 D:\ERP\ERP.Bll\Master\BUser.cs:行号 54
+   在 CZZD.ERP.Main.FrmLogin.login() 位置 D:\ERP\ERP.Main\FrmLogin.cs:行号 143
+2013-05-27 09:27:31,597 [1][ERROR][FrmLogin] - 数据库连接失败！
+System.Exception: 列名 'INT_COMMUNITY_DATE' 无效。
+列名 'OUT_COMMUNITY_DATE' 无效。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.Query(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 1036
+   在 CZZD.ERP.SQLServerDAL.UserManage.GetModel(String CODE, String COMPANY_CODE) 位置 D:\ERP\ERP.SQLServerDAL\Master\UserManage.cs:行号 235
+   在 CZZD.ERP.Bll.BUser.GetModel(String CODE, String COMPANY_CODE) 位置 D:\ERP\ERP.Bll\Master\BUser.cs:行号 54
+   在 CZZD.ERP.Main.FrmLogin.login() 位置 D:\ERP\ERP.Main\FrmLogin.cs:行号 143
+2013-05-27 09:31:22,723 [10][ERROR][FrmLogin] - 数据库连接失败！
+System.Exception: 列名 'INT_COMMUNITY_DATE' 无效。
+列名 'OUT_COMMUNITY_DATE' 无效。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.Query(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 1036
+   在 CZZD.ERP.SQLServerDAL.UserManage.GetModel(String CODE, String COMPANY_CODE) 位置 D:\ERP\ERP.SQLServerDAL\Master\UserManage.cs:行号 235
+   在 CZZD.ERP.Bll.BUser.GetModel(String CODE, String COMPANY_CODE) 位置 D:\ERP\ERP.Bll\Master\BUser.cs:行号 54
+   在 CZZD.ERP.Main.FrmLogin.login() 位置 D:\ERP\ERP.Main\FrmLogin.cs:行号 143
+2013-05-27 09:33:13,021 [10][ERROR][FrmLogin] - 数据库连接失败！
+System.Exception: 列名 'INT_COMMUNITY_DATE' 无效。
+列名 'OUT_COMMUNITY_DATE' 无效。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.Query(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 1036
+   在 CZZD.ERP.SQLServerDAL.UserManage.GetModel(String CODE, String COMPANY_CODE) 位置 D:\ERP\ERP.SQLServerDAL\Master\UserManage.cs:行号 235
+   在 CZZD.ERP.Bll.BUser.GetModel(String CODE, String COMPANY_CODE) 位置 D:\ERP\ERP.Bll\Master\BUser.cs:行号 54
+   在 CZZD.ERP.Main.FrmLogin.login() 位置 D:\ERP\ERP.Main\FrmLogin.cs:行号 143
+2013-05-27 09:34:45,678 [1][ERROR][FrmLogin] - 数据库连接失败！
+System.Exception: 列名 'INT_COMMUNITY_DATE' 无效。
+列名 'OUT_COMMUNITY_DATE' 无效。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.Query(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 1036
+   在 CZZD.ERP.SQLServerDAL.UserManage.GetModel(String CODE, String COMPANY_CODE) 位置 D:\ERP\ERP.SQLServerDAL\Master\UserManage.cs:行号 235
+   在 CZZD.ERP.Bll.BUser.GetModel(String CODE, String COMPANY_CODE) 位置 D:\ERP\ERP.Bll\Master\BUser.cs:行号 54
+   在 CZZD.ERP.Main.FrmLogin.login() 位置 D:\ERP\ERP.Main\FrmLogin.cs:行号 143

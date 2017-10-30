@@ -1,0 +1,5 @@
+D:\ERP\bin\ERP.DBUtility.dll
+D:\ERP\bin\ERP.DBUtility.pdb
+D:\ERP\ERP.DBUtility\obj\Debug\ResolveAssemblyReference.cache
+D:\ERP\ERP.DBUtility\obj\Debug\ERP.DBUtility.dll
+D:\ERP\ERP.DBUtility\obj\Debug\ERP.DBUtility.pdb

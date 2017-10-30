@@ -1,0 +1,5 @@
+D:\ERP\bin\ERP.IDAL.dll
+D:\ERP\bin\ERP.IDAL.pdb
+D:\ERP\ERP.IDAL\obj\Debug\ResolveAssemblyReference.cache
+D:\ERP\ERP.IDAL\obj\Debug\ERP.IDAL.dll
+D:\ERP\ERP.IDAL\obj\Debug\ERP.IDAL.pdb

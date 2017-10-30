@@ -1,0 +1,32 @@
+2013-04-16 17:24:44,257 [10][ERROR][FrmSales] - 销售发票保存失败!!!!!
+System.Data.SqlClient.SqlException: 关键字 'SELECT' 附近有语法错误。
+')' 附近有语法错误。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.GetSingle(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 981
+   在 CZZD.ERP.SQLServerDAL.SalesManage.GetSalesMaxSlipNumber(String companyCode) 位置 D:\ERP\ERP.SQLServerDAL\Finance\SalesManage.cs:行号 125
+   在 CZZD.ERP.SQLServerDAL.SalesManage.Add(BllSalesTable salesTable) 位置 D:\ERP\ERP.SQLServerDAL\Finance\SalesManage.cs:行号 35
+   在 CZZD.ERP.Bll.BSales.Add(BllSalesTable salesTable) 位置 D:\ERP\ERP.Bll\Finance\BSales.cs:行号 24
+   在 CZZD.ERP.WinUI.FrmSales.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Finance\FrmSales.cs:行号 361
+2013-04-16 17:24:47,397 [10][ERROR][FrmSales] - 销售发票保存失败!!!!!
+System.Data.SqlClient.SqlException: 关键字 'SELECT' 附近有语法错误。
+')' 附近有语法错误。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.GetSingle(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 981
+   在 CZZD.ERP.SQLServerDAL.SalesManage.GetSalesMaxSlipNumber(String companyCode) 位置 D:\ERP\ERP.SQLServerDAL\Finance\SalesManage.cs:行号 125
+   在 CZZD.ERP.SQLServerDAL.SalesManage.Add(BllSalesTable salesTable) 位置 D:\ERP\ERP.SQLServerDAL\Finance\SalesManage.cs:行号 35
+   在 CZZD.ERP.Bll.BSales.Add(BllSalesTable salesTable) 位置 D:\ERP\ERP.Bll\Finance\BSales.cs:行号 24
+   在 CZZD.ERP.WinUI.FrmSales.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Finance\FrmSales.cs:行号 361
+2013-04-16 17:25:02,049 [10][ERROR][FrmSales] - 销售发票保存失败!!!!!
+System.Data.SqlClient.SqlException: 关键字 'SELECT' 附近有语法错误。
+')' 附近有语法错误。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.GetSingle(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 981
+   在 CZZD.ERP.SQLServerDAL.SalesManage.GetSalesMaxSlipNumber(String companyCode) 位置 D:\ERP\ERP.SQLServerDAL\Finance\SalesManage.cs:行号 125
+   在 CZZD.ERP.SQLServerDAL.SalesManage.Add(BllSalesTable salesTable) 位置 D:\ERP\ERP.SQLServerDAL\Finance\SalesManage.cs:行号 35
+   在 CZZD.ERP.Bll.BSales.Add(BllSalesTable salesTable) 位置 D:\ERP\ERP.Bll\Finance\BSales.cs:行号 24
+   在 CZZD.ERP.WinUI.FrmSales.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Finance\FrmSales.cs:行号 361
+2013-04-16 17:25:04,361 [10][ERROR][FrmSales] - 销售发票保存失败!!!!!
+System.Data.SqlClient.SqlException: 关键字 'SELECT' 附近有语法错误。
+')' 附近有语法错误。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.GetSingle(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 981
+   在 CZZD.ERP.SQLServerDAL.SalesManage.GetSalesMaxSlipNumber(String companyCode) 位置 D:\ERP\ERP.SQLServerDAL\Finance\SalesManage.cs:行号 125
+   在 CZZD.ERP.SQLServerDAL.SalesManage.Add(BllSalesTable salesTable) 位置 D:\ERP\ERP.SQLServerDAL\Finance\SalesManage.cs:行号 35
+   在 CZZD.ERP.Bll.BSales.Add(BllSalesTable salesTable) 位置 D:\ERP\ERP.Bll\Finance\BSales.cs:行号 24
+   在 CZZD.ERP.WinUI.FrmSales.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Finance\FrmSales.cs:行号 361

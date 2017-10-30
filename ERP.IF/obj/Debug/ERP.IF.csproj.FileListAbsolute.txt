@@ -1,0 +1,5 @@
+D:\ERP\bin\ERP.IF.dll
+D:\ERP\bin\ERP.IF.pdb
+D:\ERP\ERP.IF\obj\Debug\ResolveAssemblyReference.cache
+D:\ERP\ERP.IF\obj\Debug\ERP.IF.dll
+D:\ERP\ERP.IF\obj\Debug\ERP.IF.pdb

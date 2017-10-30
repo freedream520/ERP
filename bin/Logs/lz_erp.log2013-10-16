@@ -1,0 +1,119 @@
+2013-10-16 09:55:17,355 [8][ERROR][FrmPurchaseOrderEntry] - 订单保存失败！
+System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 CZZD.ERP.SQLServerDAL.PurchaseOrderManage.Update(BllPurchaseOrderTable model) 位置 D:\ERP\ERP.SQLServerDAL\PurchaseOrder\PurchaseOrderManage.cs:行号 425
+   在 CZZD.ERP.Bll.BPurchaseOrder.Update(BllPurchaseOrderTable model) 位置 D:\ERP\ERP.Bll\PurchaseOrder\BPurchaseOrder.cs:行号 39
+   在 CZZD.ERP.WinUI.FrmPurchaseOrderEntry.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Purchase\FrmPurchaseOrderEntry.cs:行号 1000
+2013-10-16 09:55:21,918 [8][ERROR][FrmPurchaseOrderEntry] - 订单保存失败！
+System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 CZZD.ERP.SQLServerDAL.PurchaseOrderManage.Update(BllPurchaseOrderTable model) 位置 D:\ERP\ERP.SQLServerDAL\PurchaseOrder\PurchaseOrderManage.cs:行号 425
+   在 CZZD.ERP.Bll.BPurchaseOrder.Update(BllPurchaseOrderTable model) 位置 D:\ERP\ERP.Bll\PurchaseOrder\BPurchaseOrder.cs:行号 39
+   在 CZZD.ERP.WinUI.FrmPurchaseOrderEntry.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Purchase\FrmPurchaseOrderEntry.cs:行号 1000
+2013-10-16 11:20:56,593 [9][ERROR][FrmStockAdjustment] - 未将对象引用设置到对象的实例。
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CZZD.ERP.WinUI.FrmStockAdjustment.dgvData_CellValidated(Object sender, DataGridViewCellEventArgs e) 位置 D:\ERP\ERP.WinUI\Stock\FrmStockAdjustment.cs:行号 369
+2013-10-16 11:21:06,104 [9][ERROR][FrmStockAdjustment] - 未能找到名为 CODE 的列。
+参数名: columnName
+System.ArgumentException: 未能找到名为 CODE 的列。
+参数名: columnName
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 CZZD.ERP.WinUI.FrmStockAdjustment.dgvData_CellValidated(Object sender, DataGridViewCellEventArgs e) 位置 D:\ERP\ERP.WinUI\Stock\FrmStockAdjustment.cs:行号 400
+2013-10-16 11:21:24,724 [9][ERROR][FrmStockAdjustment] - 未将对象引用设置到对象的实例。
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CZZD.ERP.WinUI.FrmStockAdjustment.dgvData_CellValidated(Object sender, DataGridViewCellEventArgs e) 位置 D:\ERP\ERP.WinUI\Stock\FrmStockAdjustment.cs:行号 369
+2013-10-16 17:43:42,041 [9][ERROR][FrmLogin] - 数据库连接失败！
+System.IO.FileNotFoundException: ~/Resources/leftbg.png
+   在 System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   在 System.Drawing.Image.FromFile(String filename)
+   在 CZZD.ERP.Main.FrmMain.initCompany() 位置 D:\ERP\ERP.Main\FrmMain.cs:行号 108
+   在 CZZD.ERP.Main.FrmMain.FrmMain_Load(Object sender, EventArgs e) 位置 D:\ERP\ERP.Main\FrmMain.cs:行号 46
+   在 System.Windows.Forms.Form.OnLoad(EventArgs e)
+   在 System.Windows.Forms.Form.OnCreateControl()
+   在 System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   在 System.Windows.Forms.Control.CreateControl()
+   在 System.Windows.Forms.Control.WmShowWindow(Message& m)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.ContainerControl.WndProc(Message& m)
+   在 System.Windows.Forms.Form.WmShowWindow(Message& m)
+   在 System.Windows.Forms.Form.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   在 System.Windows.Forms.UnsafeNativeMethods.SendMessage(HandleRef hWnd, Int32 msg, Int32 wParam, Int32 lParam)
+   在 System.Windows.Forms.Form.SetVisibleCore(Boolean value)
+   在 System.Windows.Forms.Control.Show()
+   在 CZZD.ERP.Main.FrmLogin.login() 位置 D:\ERP\ERP.Main\FrmLogin.cs:行号 187
+2013-10-16 17:44:38,266 [10][ERROR][FrmLogin] - 数据库连接失败！
+System.IO.FileNotFoundException: ~/Resources/leftbg.png
+   在 System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   在 System.Drawing.Image.FromFile(String filename)
+   在 CZZD.ERP.Main.FrmMain.initCompany() 位置 D:\ERP\ERP.Main\FrmMain.cs:行号 108
+   在 CZZD.ERP.Main.FrmMain.FrmMain_Load(Object sender, EventArgs e) 位置 D:\ERP\ERP.Main\FrmMain.cs:行号 46
+   在 System.Windows.Forms.Form.OnLoad(EventArgs e)
+   在 System.Windows.Forms.Form.OnCreateControl()
+   在 System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   在 System.Windows.Forms.Control.CreateControl()
+   在 System.Windows.Forms.Control.WmShowWindow(Message& m)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.ContainerControl.WndProc(Message& m)
+   在 System.Windows.Forms.Form.WmShowWindow(Message& m)
+   在 System.Windows.Forms.Form.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   在 System.Windows.Forms.UnsafeNativeMethods.SendMessage(HandleRef hWnd, Int32 msg, Int32 wParam, Int32 lParam)
+   在 System.Windows.Forms.Form.SetVisibleCore(Boolean value)
+   在 System.Windows.Forms.Control.Show()
+   在 CZZD.ERP.Main.FrmLogin.login() 位置 D:\ERP\ERP.Main\FrmLogin.cs:行号 187
+2013-10-16 17:49:18,216 [10][ERROR][FrmLogin] - 数据库连接失败！
+System.IO.FileNotFoundException: ../Resources/leftbg.png
+   在 System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   在 System.Drawing.Image.FromFile(String filename)
+   在 CZZD.ERP.Main.FrmMain.initCompany()
+   在 CZZD.ERP.Main.FrmMain.FrmMain_Load(Object sender, EventArgs e)
+   在 System.Windows.Forms.Form.OnLoad(EventArgs e)
+   在 System.Windows.Forms.Form.OnCreateControl()
+   在 System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   在 System.Windows.Forms.Control.CreateControl()
+   在 System.Windows.Forms.Control.WmShowWindow(Message& m)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.ContainerControl.WndProc(Message& m)
+   在 System.Windows.Forms.Form.WmShowWindow(Message& m)
+   在 System.Windows.Forms.Form.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   在 System.Windows.Forms.UnsafeNativeMethods.SendMessage(HandleRef hWnd, Int32 msg, Int32 wParam, Int32 lParam)
+   在 System.Windows.Forms.Form.SetVisibleCore(Boolean value)
+   在 System.Windows.Forms.Control.Show()
+   在 CZZD.ERP.Main.FrmLogin.login()
+2013-10-16 18:15:30,566 [10][ERROR][FrmLogin] - 数据库连接失败！
+System.IO.FileNotFoundException: Properties/Resources/leftbg.png
+   在 System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   在 System.Drawing.Image.FromFile(String filename)
+   在 CZZD.ERP.Main.FrmMain.initCompany()
+   在 CZZD.ERP.Main.FrmMain..ctor(BaseUserTable userTable)
+   在 CZZD.ERP.Main.FrmLogin.login()
+2013-10-16 18:15:49,221 [10][ERROR][FrmLogin] - 数据库连接失败！
+System.IO.FileNotFoundException: ../Properties/Resources/leftbg
+   在 System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   在 System.Drawing.Image.FromFile(String filename)
+   在 CZZD.ERP.Main.FrmMain.initCompany() 位置 D:\ERP\ERP.Main\FrmMain.cs:行号 109
+   在 CZZD.ERP.Main.FrmMain..ctor(BaseUserTable userTable) 位置 D:\ERP\ERP.Main\FrmMain.cs:行号 39
+   在 CZZD.ERP.Main.FrmLogin.login() 位置 D:\ERP\ERP.Main\FrmLogin.cs:行号 185
+2013-10-16 18:18:24,500 [9][ERROR][FrmLogin] - 数据库连接失败！
+System.IO.FileNotFoundException: CZZD.ERP.Main.Properties.Resources.leftbg
+   在 System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   在 System.Drawing.Image.FromFile(String filename)
+   在 CZZD.ERP.Main.FrmMain.initCompany()
+   在 CZZD.ERP.Main.FrmMain..ctor(BaseUserTable userTable)
+   在 CZZD.ERP.Main.FrmLogin.login()
+2013-10-16 18:19:12,267 [10][ERROR][FrmLogin] - 数据库连接失败！
+System.IO.FileNotFoundException: ERP.Main.Properties.Resources.leftbg
+   在 System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   在 System.Drawing.Image.FromFile(String filename)
+   在 CZZD.ERP.Main.FrmMain.initCompany()
+   在 CZZD.ERP.Main.FrmMain..ctor(BaseUserTable userTable)
+   在 CZZD.ERP.Main.FrmLogin.login()

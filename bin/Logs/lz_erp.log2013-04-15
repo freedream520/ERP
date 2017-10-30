@@ -1,0 +1,180 @@
+2013-04-15 09:48:33,848 [9][ERROR][CommonExport] - Excel文件保存,失败后复制文件的删除。
+System.UnauthorizedAccessException: 对路径“C:\Users\Administrator\Desktop\LZ_SHIPMENT_20130415094824.xls”的访问被拒绝。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.Delete(String path)
+   在 CZZD.ERP.Common.CommonExport.DataTableToExcel_Shipment_Body(String templetFile, String outFile, DataTable dt, DataTable dt1, Hashtable ht) 位置 D:\ERP\ERP.Common\CommonExport.cs:行号 696
+2013-04-15 09:48:33,879 [9][ERROR][CommonExport] - Excel文件保存失败。
+2013-04-15 09:54:17,559 [10][ERROR][CommonExport] - Excel文件保存,失败后复制文件的删除。
+System.UnauthorizedAccessException: 对路径“C:\Users\Administrator\Desktop\LZ_SHIPMENT_20130415095356.xls”的访问被拒绝。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.Delete(String path)
+   在 CZZD.ERP.Common.CommonExport.DataTableToExcel_Shipment_Body(String templetFile, String outFile, DataTable dt, DataTable dt1, Hashtable ht) 位置 D:\ERP\ERP.Common\CommonExport.cs:行号 696
+2013-04-15 09:54:17,590 [10][ERROR][CommonExport] - Excel文件保存失败。
+2013-04-15 10:03:06,895 [10][ERROR][CommonExport] - Excel文件保存,失败后复制文件的删除。
+System.UnauthorizedAccessException: 对路径“C:\Users\Administrator\Desktop\LZ_SHIPMENT_20130415095545.xls”的访问被拒绝。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.Delete(String path)
+   在 CZZD.ERP.Common.CommonExport.DataTableToExcel_Shipment_Body(String templetFile, String outFile, DataTable dt, DataTable dt1, Hashtable ht) 位置 D:\ERP\ERP.Common\CommonExport.cs:行号 696
+2013-04-15 10:03:06,895 [10][ERROR][CommonExport] - Excel文件保存失败。
+2013-04-15 10:05:07,187 [9][ERROR][CommonExport] - Excel文件保存,失败后复制文件的删除。
+System.UnauthorizedAccessException: 对路径“C:\Users\Administrator\Desktop\LZ_SHIPMENT_BODY_20130415100453.xls”的访问被拒绝。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.Delete(String path)
+   在 CZZD.ERP.Common.CommonExport.DataTableToExcel_Shipment_Body(String templetFile, String outFile, DataTable dt, DataTable dt1, Hashtable ht) 位置 D:\ERP\ERP.Common\CommonExport.cs:行号 696
+2013-04-15 10:05:07,202 [9][ERROR][CommonExport] - Excel文件保存失败。
+2013-04-15 10:20:25,884 [9][ERROR][CommonExport] - Excel文件保存,失败后复制文件的删除。
+System.UnauthorizedAccessException: 对路径“C:\Users\Administrator\Desktop\LZ_SHIPMENT_BODY_20130415102010.xls”的访问被拒绝。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.Delete(String path)
+   在 CZZD.ERP.Common.CommonExport.DataTableToExcel_Shipment_Body(String templetFile, String outFile, DataTable dt, DataTable dt1, Hashtable ht) 位置 D:\ERP\ERP.Common\CommonExport.cs:行号 696
+2013-04-15 10:20:25,899 [9][ERROR][CommonExport] - Excel文件保存失败。
+2013-04-15 10:22:58,543 [9][ERROR][CommonExport] - Excel文件保存,失败后复制文件的删除。
+System.UnauthorizedAccessException: 对路径“C:\Users\Administrator\Desktop\LZ_SHIPMENT_BODY_20130415102246.xls”的访问被拒绝。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.Delete(String path)
+   在 CZZD.ERP.Common.CommonExport.DataTableToExcel_Shipment_Body(String templetFile, String outFile, DataTable dt, DataTable dt1, Hashtable ht) 位置 D:\ERP\ERP.Common\CommonExport.cs:行号 696
+2013-04-15 10:22:58,574 [9][ERROR][CommonExport] - Excel文件保存失败。
+2013-04-15 10:25:32,336 [9][ERROR][CommonExport] - Excel文件保存,失败后复制文件的删除。
+System.UnauthorizedAccessException: 对路径“C:\Users\Administrator\Desktop\LZ_SHIPMENT_BODY_20130415102335.xls”的访问被拒绝。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.Delete(String path)
+   在 CZZD.ERP.Common.CommonExport.DataTableToExcel_Shipment_Body(String templetFile, String outFile, DataTable dt, DataTable dt1, Hashtable ht) 位置 D:\ERP\ERP.Common\CommonExport.cs:行号 696
+2013-04-15 10:25:32,336 [9][ERROR][CommonExport] - Excel文件保存失败。
+2013-04-15 11:05:50,643 [9][ERROR][FrmStockAdjustment] - 未将对象引用设置到对象的实例。
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CZZD.ERP.WinUI.FrmStockAdjustment.dgvData_CellValidated(Object sender, DataGridViewCellEventArgs e) 位置 D:\ERP\ERP.WinUI\Stock\FrmStockAdjustment.cs:行号 353
+2013-04-15 11:05:53,373 [9][ERROR][FrmStockAdjustment] - 未将对象引用设置到对象的实例。
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CZZD.ERP.WinUI.FrmStockAdjustment.dgvData_CellValidated(Object sender, DataGridViewCellEventArgs e) 位置 D:\ERP\ERP.WinUI\Stock\FrmStockAdjustment.cs:行号 353
+2013-04-15 11:06:00,923 [9][ERROR][FrmStockAdjustment] - 未将对象引用设置到对象的实例。
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CZZD.ERP.WinUI.FrmStockAdjustment.dgvData_CellValidated(Object sender, DataGridViewCellEventArgs e) 位置 D:\ERP\ERP.WinUI\Stock\FrmStockAdjustment.cs:行号 353
+2013-04-15 11:10:34,801 [9][ERROR][FrmStockAdjustment] - 未将对象引用设置到对象的实例。
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CZZD.ERP.WinUI.FrmStockAdjustment.dgvData_CellValidated(Object sender, DataGridViewCellEventArgs e) 位置 D:\ERP\ERP.WinUI\Stock\FrmStockAdjustment.cs:行号 356
+2013-04-15 11:12:42,570 [10][ERROR][FrmStockAdjustment] - 未将对象引用设置到对象的实例。
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CZZD.ERP.WinUI.FrmStockAdjustment.dgvData_CellValidated(Object sender, DataGridViewCellEventArgs e) 位置 D:\ERP\ERP.WinUI\Stock\FrmStockAdjustment.cs:行号 363
+2013-04-15 11:13:04,691 [10][ERROR][FrmStockAdjustment] - 未将对象引用设置到对象的实例。
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CZZD.ERP.WinUI.FrmStockAdjustment.dgvData_CellValidated(Object sender, DataGridViewCellEventArgs e) 位置 D:\ERP\ERP.WinUI\Stock\FrmStockAdjustment.cs:行号 363
+2013-04-15 11:13:12,585 [10][ERROR][FrmStockAdjustment] - 未将对象引用设置到对象的实例。
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CZZD.ERP.WinUI.FrmStockAdjustment.dgvData_CellValidated(Object sender, DataGridViewCellEventArgs e) 位置 D:\ERP\ERP.WinUI\Stock\FrmStockAdjustment.cs:行号 363
+2013-04-15 11:13:17,748 [10][ERROR][FrmStockAdjustment] - 未将对象引用设置到对象的实例。
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CZZD.ERP.WinUI.FrmStockAdjustment.dgvData_CellValidated(Object sender, DataGridViewCellEventArgs e) 位置 D:\ERP\ERP.WinUI\Stock\FrmStockAdjustment.cs:行号 363
+2013-04-15 17:22:39,559 [10][ERROR][FrmPayment] - 收款金额输入保存失败!!!!!
+System.Data.SqlClient.SqlException: 违反了 PRIMARY KEY 约束 'PK_主键约束'。不能在对象 'dbo.BLL_PAYMENT_MATCH' 中插入重复键。
+语句已终止。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.ExecuteSql(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 669
+   在 CZZD.ERP.SQLServerDAL.PaymentMatchManage.AddpaymentMatch(BllPaymentMatchTable payment) 位置 D:\ERP\ERP.SQLServerDAL\Finance\PaymentMatchManage.cs:行号 83
+   在 CZZD.ERP.Bll.BPaymentMatch.AddpaymentMatch(BllPaymentMatchTable payment) 位置 D:\ERP\ERP.Bll\Finance\BPaymentMatch.cs:行号 21
+   在 CZZD.ERP.WinUI.FrmPayment.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Finance\FrmPayment.cs:行号 298
+2013-04-15 17:22:40,870 [10][ERROR][FrmPayment] - 收款金额输入保存失败!!!!!
+System.Data.SqlClient.SqlException: 违反了 PRIMARY KEY 约束 'PK_主键约束'。不能在对象 'dbo.BLL_PAYMENT_MATCH' 中插入重复键。
+语句已终止。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.ExecuteSql(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 669
+   在 CZZD.ERP.SQLServerDAL.PaymentMatchManage.AddpaymentMatch(BllPaymentMatchTable payment) 位置 D:\ERP\ERP.SQLServerDAL\Finance\PaymentMatchManage.cs:行号 83
+   在 CZZD.ERP.Bll.BPaymentMatch.AddpaymentMatch(BllPaymentMatchTable payment) 位置 D:\ERP\ERP.Bll\Finance\BPaymentMatch.cs:行号 21
+   在 CZZD.ERP.WinUI.FrmPayment.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Finance\FrmPayment.cs:行号 298
+2013-04-15 17:22:43,272 [10][ERROR][FrmPayment] - 收款金额输入保存失败!!!!!
+System.Data.SqlClient.SqlException: 违反了 PRIMARY KEY 约束 'PK_主键约束'。不能在对象 'dbo.BLL_PAYMENT_MATCH' 中插入重复键。
+语句已终止。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.ExecuteSql(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 669
+   在 CZZD.ERP.SQLServerDAL.PaymentMatchManage.AddpaymentMatch(BllPaymentMatchTable payment) 位置 D:\ERP\ERP.SQLServerDAL\Finance\PaymentMatchManage.cs:行号 83
+   在 CZZD.ERP.Bll.BPaymentMatch.AddpaymentMatch(BllPaymentMatchTable payment) 位置 D:\ERP\ERP.Bll\Finance\BPaymentMatch.cs:行号 21
+   在 CZZD.ERP.WinUI.FrmPayment.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Finance\FrmPayment.cs:行号 298
+2013-04-15 17:22:44,052 [10][ERROR][FrmPayment] - 收款金额输入保存失败!!!!!
+System.Data.SqlClient.SqlException: 违反了 PRIMARY KEY 约束 'PK_主键约束'。不能在对象 'dbo.BLL_PAYMENT_MATCH' 中插入重复键。
+语句已终止。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.ExecuteSql(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 669
+   在 CZZD.ERP.SQLServerDAL.PaymentMatchManage.AddpaymentMatch(BllPaymentMatchTable payment) 位置 D:\ERP\ERP.SQLServerDAL\Finance\PaymentMatchManage.cs:行号 83
+   在 CZZD.ERP.Bll.BPaymentMatch.AddpaymentMatch(BllPaymentMatchTable payment) 位置 D:\ERP\ERP.Bll\Finance\BPaymentMatch.cs:行号 21
+   在 CZZD.ERP.WinUI.FrmPayment.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Finance\FrmPayment.cs:行号 298
+2013-04-15 17:34:17,669 [9][ERROR][FrmPayment] - 收款金额输入保存失败!!!!!
+System.ArgumentOutOfRangeException: startIndex 不能大于字符串长度。
+参数名: startIndex
+   在 System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   在 System.String.Substring(Int32 startIndex)
+   在 CZZD.ERP.SQLServerDAL.PaymentMatchManage.AddpaymentMatch(BllPaymentMatchTable payment) 位置 D:\ERP\ERP.SQLServerDAL\Finance\PaymentMatchManage.cs:行号 48
+   在 CZZD.ERP.Bll.BPaymentMatch.AddpaymentMatch(BllPaymentMatchTable payment) 位置 D:\ERP\ERP.Bll\Finance\BPaymentMatch.cs:行号 21
+   在 CZZD.ERP.WinUI.FrmPayment.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Finance\FrmPayment.cs:行号 298
+2013-04-15 17:34:18,434 [9][ERROR][FrmPayment] - 收款金额输入保存失败!!!!!
+System.ArgumentOutOfRangeException: startIndex 不能大于字符串长度。
+参数名: startIndex
+   在 System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   在 System.String.Substring(Int32 startIndex)
+   在 CZZD.ERP.SQLServerDAL.PaymentMatchManage.AddpaymentMatch(BllPaymentMatchTable payment) 位置 D:\ERP\ERP.SQLServerDAL\Finance\PaymentMatchManage.cs:行号 48
+   在 CZZD.ERP.Bll.BPaymentMatch.AddpaymentMatch(BllPaymentMatchTable payment) 位置 D:\ERP\ERP.Bll\Finance\BPaymentMatch.cs:行号 21
+   在 CZZD.ERP.WinUI.FrmPayment.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Finance\FrmPayment.cs:行号 298
+2013-04-15 18:06:44,465 [9][ERROR][FrmPayment] - 收款金额输入保存失败!!!!!
+System.Data.SqlClient.SqlException: 违反了 PRIMARY KEY 约束 'PK_主键约束'。不能在对象 'dbo.BLL_PAYMENT_MATCH' 中插入重复键。
+语句已终止。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.ExecuteSql(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 669
+   在 CZZD.ERP.SQLServerDAL.PaymentMatchManage.AddpaymentMatch(BllPaymentMatchTable payment) 位置 D:\ERP\ERP.SQLServerDAL\Finance\PaymentMatchManage.cs:行号 82
+   在 CZZD.ERP.Bll.BPaymentMatch.AddpaymentMatch(BllPaymentMatchTable payment) 位置 D:\ERP\ERP.Bll\Finance\BPaymentMatch.cs:行号 21
+   在 CZZD.ERP.WinUI.FrmPayment.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Finance\FrmPayment.cs:行号 296
+2013-04-15 18:06:45,026 [9][ERROR][FrmPayment] - 收款金额输入保存失败!!!!!
+System.Data.SqlClient.SqlException: 违反了 PRIMARY KEY 约束 'PK_主键约束'。不能在对象 'dbo.BLL_PAYMENT_MATCH' 中插入重复键。
+语句已终止。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.ExecuteSql(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 669
+   在 CZZD.ERP.SQLServerDAL.PaymentMatchManage.AddpaymentMatch(BllPaymentMatchTable payment) 位置 D:\ERP\ERP.SQLServerDAL\Finance\PaymentMatchManage.cs:行号 82
+   在 CZZD.ERP.Bll.BPaymentMatch.AddpaymentMatch(BllPaymentMatchTable payment) 位置 D:\ERP\ERP.Bll\Finance\BPaymentMatch.cs:行号 21
+   在 CZZD.ERP.WinUI.FrmPayment.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Finance\FrmPayment.cs:行号 296
+2013-04-15 18:06:55,868 [9][ERROR][FrmPayment] - 收款金额输入保存失败!!!!!
+System.Data.SqlClient.SqlException: 违反了 PRIMARY KEY 约束 'PK_主键约束'。不能在对象 'dbo.BLL_PAYMENT_MATCH' 中插入重复键。
+语句已终止。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.ExecuteSql(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 669
+   在 CZZD.ERP.SQLServerDAL.PaymentMatchManage.AddpaymentMatch(BllPaymentMatchTable payment) 位置 D:\ERP\ERP.SQLServerDAL\Finance\PaymentMatchManage.cs:行号 82
+   在 CZZD.ERP.Bll.BPaymentMatch.AddpaymentMatch(BllPaymentMatchTable payment) 位置 D:\ERP\ERP.Bll\Finance\BPaymentMatch.cs:行号 21
+   在 CZZD.ERP.WinUI.FrmPayment.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Finance\FrmPayment.cs:行号 296
+2013-04-15 18:06:56,617 [9][ERROR][FrmPayment] - 收款金额输入保存失败!!!!!
+System.Data.SqlClient.SqlException: 违反了 PRIMARY KEY 约束 'PK_主键约束'。不能在对象 'dbo.BLL_PAYMENT_MATCH' 中插入重复键。
+语句已终止。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.ExecuteSql(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 669
+   在 CZZD.ERP.SQLServerDAL.PaymentMatchManage.AddpaymentMatch(BllPaymentMatchTable payment) 位置 D:\ERP\ERP.SQLServerDAL\Finance\PaymentMatchManage.cs:行号 82
+   在 CZZD.ERP.Bll.BPaymentMatch.AddpaymentMatch(BllPaymentMatchTable payment) 位置 D:\ERP\ERP.Bll\Finance\BPaymentMatch.cs:行号 21
+   在 CZZD.ERP.WinUI.FrmPayment.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Finance\FrmPayment.cs:行号 296
+2013-04-15 18:09:02,478 [9][ERROR][FrmPayment] - 收款金额输入保存失败!!!!!
+System.Data.SqlClient.SqlException: 违反了 PRIMARY KEY 约束 'PK_主键约束'。不能在对象 'dbo.BLL_PAYMENT_MATCH' 中插入重复键。
+语句已终止。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.ExecuteSql(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 669
+   在 CZZD.ERP.SQLServerDAL.PaymentMatchManage.AddpaymentMatch(BllPaymentMatchTable payment) 位置 D:\ERP\ERP.SQLServerDAL\Finance\PaymentMatchManage.cs:行号 82
+   在 CZZD.ERP.Bll.BPaymentMatch.AddpaymentMatch(BllPaymentMatchTable payment) 位置 D:\ERP\ERP.Bll\Finance\BPaymentMatch.cs:行号 21
+   在 CZZD.ERP.WinUI.FrmPayment.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Finance\FrmPayment.cs:行号 296
+2013-04-15 18:09:36,150 [9][ERROR][FrmPayment] - 收款金额输入保存失败!!!!!
+System.Data.SqlClient.SqlException: 违反了 PRIMARY KEY 约束 'PK_主键约束'。不能在对象 'dbo.BLL_PAYMENT_MATCH' 中插入重复键。
+语句已终止。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.ExecuteSql(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 669
+   在 CZZD.ERP.SQLServerDAL.PaymentMatchManage.AddpaymentMatch(BllPaymentMatchTable payment) 位置 D:\ERP\ERP.SQLServerDAL\Finance\PaymentMatchManage.cs:行号 82
+   在 CZZD.ERP.Bll.BPaymentMatch.AddpaymentMatch(BllPaymentMatchTable payment) 位置 D:\ERP\ERP.Bll\Finance\BPaymentMatch.cs:行号 21
+   在 CZZD.ERP.WinUI.FrmPayment.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Finance\FrmPayment.cs:行号 296
+2013-04-15 18:09:36,789 [9][ERROR][FrmPayment] - 收款金额输入保存失败!!!!!
+System.Data.SqlClient.SqlException: 违反了 PRIMARY KEY 约束 'PK_主键约束'。不能在对象 'dbo.BLL_PAYMENT_MATCH' 中插入重复键。
+语句已终止。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.ExecuteSql(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 669
+   在 CZZD.ERP.SQLServerDAL.PaymentMatchManage.AddpaymentMatch(BllPaymentMatchTable payment) 位置 D:\ERP\ERP.SQLServerDAL\Finance\PaymentMatchManage.cs:行号 82
+   在 CZZD.ERP.Bll.BPaymentMatch.AddpaymentMatch(BllPaymentMatchTable payment) 位置 D:\ERP\ERP.Bll\Finance\BPaymentMatch.cs:行号 21
+   在 CZZD.ERP.WinUI.FrmPayment.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Finance\FrmPayment.cs:行号 296
+2013-04-15 18:21:44,560 [10][ERROR][FrmPayment] - 收款金额输入保存失败!!!!!
+System.Data.SqlClient.SqlException: 违反了 PRIMARY KEY 约束 'PK_主键约束'。不能在对象 'dbo.BLL_PAYMENT_MATCH' 中插入重复键。
+语句已终止。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.ExecuteSql(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 669
+   在 CZZD.ERP.SQLServerDAL.PaymentMatchManage.AddpaymentMatch(BllPaymentMatchTable payment) 位置 D:\ERP\ERP.SQLServerDAL\Finance\PaymentMatchManage.cs:行号 82
+   在 CZZD.ERP.Bll.BPaymentMatch.AddpaymentMatch(BllPaymentMatchTable payment) 位置 D:\ERP\ERP.Bll\Finance\BPaymentMatch.cs:行号 21
+   在 CZZD.ERP.WinUI.FrmPayment.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Finance\FrmPayment.cs:行号 296
+2013-04-15 18:23:24,931 [10][ERROR][FrmPayment] - 收款金额输入保存失败!!!!!
+System.Data.SqlClient.SqlException: 违反了 PRIMARY KEY 约束 'PK_主键约束'。不能在对象 'dbo.BLL_PAYMENT_MATCH' 中插入重复键。
+语句已终止。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.ExecuteSql(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 669
+   在 CZZD.ERP.SQLServerDAL.PaymentMatchManage.AddpaymentMatch(BllPaymentMatchTable payment) 位置 D:\ERP\ERP.SQLServerDAL\Finance\PaymentMatchManage.cs:行号 82
+   在 CZZD.ERP.Bll.BPaymentMatch.AddpaymentMatch(BllPaymentMatchTable payment) 位置 D:\ERP\ERP.Bll\Finance\BPaymentMatch.cs:行号 21
+   在 CZZD.ERP.WinUI.FrmPayment.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Finance\FrmPayment.cs:行号 296
+2013-04-15 18:23:25,695 [10][ERROR][FrmPayment] - 收款金额输入保存失败!!!!!
+System.Data.SqlClient.SqlException: 违反了 PRIMARY KEY 约束 'PK_主键约束'。不能在对象 'dbo.BLL_PAYMENT_MATCH' 中插入重复键。
+语句已终止。
+   在 CZZD.ERP.DBUtility.DbHelperSQL.ExecuteSql(String SQLString, SqlParameter[] cmdParms) 位置 D:\ERP\ERP.DBUtility\DbHelperSQL.cs:行号 669
+   在 CZZD.ERP.SQLServerDAL.PaymentMatchManage.AddpaymentMatch(BllPaymentMatchTable payment) 位置 D:\ERP\ERP.SQLServerDAL\Finance\PaymentMatchManage.cs:行号 82
+   在 CZZD.ERP.Bll.BPaymentMatch.AddpaymentMatch(BllPaymentMatchTable payment) 位置 D:\ERP\ERP.Bll\Finance\BPaymentMatch.cs:行号 21
+   在 CZZD.ERP.WinUI.FrmPayment.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Finance\FrmPayment.cs:行号 296

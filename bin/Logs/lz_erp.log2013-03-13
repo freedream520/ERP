@@ -1,0 +1,63 @@
+2013-03-13 11:05:14,923 [9][ERROR][FrmOrdersEntry] - 订单修改保存失败。
+System.Data.SqlClient.SqlException: 列名 'SHIPMENT_FLAG' 无效。
+列名 'ALLOATION_QUANTITY' 无效。
+列名 'SHIPMENT_QUANTITY' 无效。
+   在 CZZD.ERP.SQLServerDAL.OrderHeaderManage.Update(BllOrderHeaderTable headerModel) 位置 D:\ERP\ERP.SQLServerDAL\Order\OrderHeaderManage.cs:行号 515
+   在 CZZD.ERP.Bll.BOrderHeader.Update(BllOrderHeaderTable model) 位置 D:\ERP\ERP.Bll\Order\BOrderHeader.cs:行号 50
+   在 CZZD.ERP.WinUI.FrmOrdersEntry.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Order\FrmOrdersEntry.cs:行号 1005
+2013-03-13 11:05:32,235 [9][ERROR][FrmOrdersEntry] - 订单修改保存失败。
+System.Data.SqlClient.SqlException: 列名 'SHIPMENT_FLAG' 无效。
+列名 'ALLOATION_QUANTITY' 无效。
+列名 'SHIPMENT_QUANTITY' 无效。
+   在 CZZD.ERP.SQLServerDAL.OrderHeaderManage.Update(BllOrderHeaderTable headerModel) 位置 D:\ERP\ERP.SQLServerDAL\Order\OrderHeaderManage.cs:行号 515
+   在 CZZD.ERP.Bll.BOrderHeader.Update(BllOrderHeaderTable model) 位置 D:\ERP\ERP.Bll\Order\BOrderHeader.cs:行号 50
+   在 CZZD.ERP.WinUI.FrmOrdersEntry.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Order\FrmOrdersEntry.cs:行号 1005
+2013-03-13 11:05:56,361 [9][ERROR][FrmOrdersEntry] - 订单修改保存失败。
+System.Data.SqlClient.SqlException: 列名 'SHIPMENT_FLAG' 无效。
+列名 'ALLOATION_QUANTITY' 无效。
+列名 'SHIPMENT_QUANTITY' 无效。
+   在 CZZD.ERP.SQLServerDAL.OrderHeaderManage.Update(BllOrderHeaderTable headerModel) 位置 D:\ERP\ERP.SQLServerDAL\Order\OrderHeaderManage.cs:行号 515
+   在 CZZD.ERP.Bll.BOrderHeader.Update(BllOrderHeaderTable model) 位置 D:\ERP\ERP.Bll\Order\BOrderHeader.cs:行号 50
+   在 CZZD.ERP.WinUI.FrmOrdersEntry.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Order\FrmOrdersEntry.cs:行号 1005
+2013-03-13 11:07:15,706 [9][ERROR][FrmOrdersEntry] - 订单修改保存失败。
+System.Data.SqlClient.SqlException: 列名 'SHIPMENT_FLAG' 无效。
+列名 'ALLOATION_QUANTITY' 无效。
+列名 'SHIPMENT_QUANTITY' 无效。
+   在 CZZD.ERP.SQLServerDAL.OrderHeaderManage.Update(BllOrderHeaderTable headerModel) 位置 D:\ERP\ERP.SQLServerDAL\Order\OrderHeaderManage.cs:行号 515
+   在 CZZD.ERP.Bll.BOrderHeader.Update(BllOrderHeaderTable model) 位置 D:\ERP\ERP.Bll\Order\BOrderHeader.cs:行号 50
+   在 CZZD.ERP.WinUI.FrmOrdersEntry.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Order\FrmOrdersEntry.cs:行号 1005
+2013-03-13 11:13:46,439 [9][ERROR][FrmOrdersEntry] - 订单修改保存失败。
+System.Data.SqlClient.SqlException: 列名 'SHIPMENT_FLAG' 无效。
+列名 'ALLOATION_QUANTITY' 无效。
+列名 'SHIPMENT_QUANTITY' 无效。
+   在 CZZD.ERP.SQLServerDAL.OrderHeaderManage.Update(BllOrderHeaderTable headerModel) 位置 D:\ERP\ERP.SQLServerDAL\Order\OrderHeaderManage.cs:行号 515
+   在 CZZD.ERP.Bll.BOrderHeader.Update(BllOrderHeaderTable model) 位置 D:\ERP\ERP.Bll\Order\BOrderHeader.cs:行号 50
+   在 CZZD.ERP.WinUI.FrmOrdersEntry.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Order\FrmOrdersEntry.cs:行号 1005
+2013-03-13 11:13:48,496 [9][ERROR][FrmOrdersEntry] - 订单修改保存失败。
+System.Data.SqlClient.SqlException: 列名 'SHIPMENT_FLAG' 无效。
+列名 'ALLOATION_QUANTITY' 无效。
+列名 'SHIPMENT_QUANTITY' 无效。
+   在 CZZD.ERP.SQLServerDAL.OrderHeaderManage.Update(BllOrderHeaderTable headerModel) 位置 D:\ERP\ERP.SQLServerDAL\Order\OrderHeaderManage.cs:行号 515
+   在 CZZD.ERP.Bll.BOrderHeader.Update(BllOrderHeaderTable model) 位置 D:\ERP\ERP.Bll\Order\BOrderHeader.cs:行号 50
+   在 CZZD.ERP.WinUI.FrmOrdersEntry.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Order\FrmOrdersEntry.cs:行号 1005
+2013-03-13 11:13:50,559 [9][ERROR][FrmOrdersEntry] - 订单修改保存失败。
+System.Data.SqlClient.SqlException: 列名 'SHIPMENT_FLAG' 无效。
+列名 'ALLOATION_QUANTITY' 无效。
+列名 'SHIPMENT_QUANTITY' 无效。
+   在 CZZD.ERP.SQLServerDAL.OrderHeaderManage.Update(BllOrderHeaderTable headerModel) 位置 D:\ERP\ERP.SQLServerDAL\Order\OrderHeaderManage.cs:行号 515
+   在 CZZD.ERP.Bll.BOrderHeader.Update(BllOrderHeaderTable model) 位置 D:\ERP\ERP.Bll\Order\BOrderHeader.cs:行号 50
+   在 CZZD.ERP.WinUI.FrmOrdersEntry.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Order\FrmOrdersEntry.cs:行号 1005
+2013-03-13 11:15:53,092 [10][ERROR][FrmOrdersEntry] - 订单修改保存失败。
+System.Data.SqlClient.SqlException: 列名 'SHIPMENT_FLAG' 无效。
+列名 'ALLOATION_QUANTITY' 无效。
+列名 'SHIPMENT_QUANTITY' 无效。
+   在 CZZD.ERP.SQLServerDAL.OrderHeaderManage.Update(BllOrderHeaderTable headerModel) 位置 D:\ERP\ERP.SQLServerDAL\Order\OrderHeaderManage.cs:行号 515
+   在 CZZD.ERP.Bll.BOrderHeader.Update(BllOrderHeaderTable model) 位置 D:\ERP\ERP.Bll\Order\BOrderHeader.cs:行号 50
+   在 CZZD.ERP.WinUI.FrmOrdersEntry.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Order\FrmOrdersEntry.cs:行号 1005
+2013-03-13 11:17:56,475 [10][ERROR][FrmOrdersEntry] - 订单修改保存失败。
+System.Data.SqlClient.SqlException: 列名 'SHIPMENT_FLAG' 无效。
+列名 'ALLOATION_QUANTITY' 无效。
+列名 'SHIPMENT_QUANTITY' 无效。
+   在 CZZD.ERP.SQLServerDAL.OrderHeaderManage.Update(BllOrderHeaderTable headerModel) 位置 D:\ERP\ERP.SQLServerDAL\Order\OrderHeaderManage.cs:行号 515
+   在 CZZD.ERP.Bll.BOrderHeader.Update(BllOrderHeaderTable model) 位置 D:\ERP\ERP.Bll\Order\BOrderHeader.cs:行号 50
+   在 CZZD.ERP.WinUI.FrmOrdersEntry.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Order\FrmOrdersEntry.cs:行号 1005

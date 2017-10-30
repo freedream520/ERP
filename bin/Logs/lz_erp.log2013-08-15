@@ -1,0 +1,10 @@
+2013-08-15 16:23:08,109 [10][ERROR][FrmOrdersEntry] - 订单修改保存失败。
+System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 CZZD.ERP.SQLServerDAL.OrderHeaderManage.Update(BllOrderHeaderTable headerModel) 位置 D:\ERP\ERP.SQLServerDAL\Order\OrderHeaderManage.cs:行号 507
+   在 CZZD.ERP.Bll.BOrderHeader.Update(BllOrderHeaderTable model) 位置 D:\ERP\ERP.Bll\Order\BOrderHeader.cs:行号 55
+   在 CZZD.ERP.WinUI.FrmOrdersEntry.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Order\FrmOrdersEntry.cs:行号 1251
+2013-08-15 16:23:27,071 [10][ERROR][FrmOrdersEntry] - 订单修改保存失败。
+System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 CZZD.ERP.SQLServerDAL.OrderHeaderManage.Update(BllOrderHeaderTable headerModel) 位置 D:\ERP\ERP.SQLServerDAL\Order\OrderHeaderManage.cs:行号 507
+   在 CZZD.ERP.Bll.BOrderHeader.Update(BllOrderHeaderTable model) 位置 D:\ERP\ERP.Bll\Order\BOrderHeader.cs:行号 55
+   在 CZZD.ERP.WinUI.FrmOrdersEntry.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Order\FrmOrdersEntry.cs:行号 1251

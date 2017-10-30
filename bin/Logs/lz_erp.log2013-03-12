@@ -1,0 +1,13 @@
+2013-03-12 11:24:17,280 [9][ERROR][FrmSlipType] - 订单类型中获取当前数据失败!
+System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.Collections.ArrayList.get_Item(Int32 index)
+   在 System.Windows.Forms.DataGridViewSelectedRowCollection.get_Item(Int32 index)
+   在 CZZD.ERP.WinUI.FrmSlipType.GetCurrentSelectedTable() 位置 D:\ERP\ERP.WinUI\Master\FrmSlipType.cs:行号 255
+2013-03-12 15:49:55,813 [9][ERROR][FrmOrdersEntry] - 订单修改保存失败。
+System.Data.SqlClient.SqlException: 列名 'SHIPMENT_FLAG' 无效。
+列名 'ALLOATION_QUANTITY' 无效。
+列名 'SHIPMENT_QUANTITY' 无效。
+   在 CZZD.ERP.SQLServerDAL.OrderHeaderManage.Update(BllOrderHeaderTable headerModel) 位置 D:\ERP\ERP.SQLServerDAL\Order\OrderHeaderManage.cs:行号 515
+   在 CZZD.ERP.Bll.BOrderHeader.Update(BllOrderHeaderTable model) 位置 D:\ERP\ERP.Bll\Order\BOrderHeader.cs:行号 50
+   在 CZZD.ERP.WinUI.FrmOrdersEntry.btnSave_Click(Object sender, EventArgs e) 位置 D:\ERP\ERP.WinUI\Order\FrmOrdersEntry.cs:行号 1005
